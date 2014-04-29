@@ -1,0 +1,22 @@
+{
+  "name": "simplify",
+  "version": "0.0.1",
+  "authors": [
+    "Quinn Rohlf <qr@qrohlf.com>"
+  ],
+  "description": "My jekyll theme",
+  "license": "Copyright 2014 Quinn Rohlf",
+  "homepage": "http://qrohlf.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.1.1",
+    "trianglify": "~0.1.2"
+  }
+}

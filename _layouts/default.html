@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+	<body>
+
+	{% include header.html %}
+
+	<div class="site-content">
+		<div class="container">
+			<div class="row">
+				<div class="site-sidebar col-sm-3">
+					<h2>Contents</h2>
+					<ul class="list-group">
+						{% assign contents = site.chapters | sort:'name' %}
+						{% for chapter in contents %}
+							<a href="{{site.baseurl}}{{chapter.url}}" class="list-group-item">{{chapter.index}}. {{ chapter.subtitle }}</a>
+						{% endfor %}
+					</ul>
+				</div>
+				<div class="site-main col-sm-9">
+					{{ content }}
+				</div>
+			</div>
+		</div>
+	</div>
+
+	{% include footer.html %}
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="{{ site.baseurl }}/js/scripts.js"></script>
+	</body>
+</html>

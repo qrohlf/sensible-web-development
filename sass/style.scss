@@ -1,0 +1,105 @@
+@import "pygments";
+@import "variables";
+$header-background: #BC370D;
+
+$font-family-sans-serif: 'Open Sans', sans-serif;
+$headings-font-weight: 600;
+$line-height-base: 1.45;
+$line-height-computed: 2*14px;
+$font-size-h2: 20px;
+$font-size-h3: 16px;
+
+
+
+@import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap";
+
+h1 {
+  font-weight: 300;
+  margin-top: 64px;
+}
+
+img {
+  @include img-responsive;
+}
+
+.site-content {
+  background-color: #fff;
+  position: relative;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+header.site-header {
+  color: white;
+  background-color: $header-background;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  position: relative;
+  z-index: -1;
+
+  h1 {
+    font-size: $font-size-base*4;
+    font-weight: 600;
+    text-shadow: -1px -1px 3px rgba(0, 0, 0, 0.4);
+    small {
+      font-size: $font-size-base*4;
+      font-weight: 300;
+      color: inherit;
+    }
+  }
+  h2 {
+    font-weight: 300;
+    color: white;
+  }
+  a, a:visited, a:hover {
+    text-decoration: underline;
+    color: inherit;
+  }
+  > .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    @media (min-width: $screen-md-min) {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+  }
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 80px + 60px; //::after is 12px high
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+  background: darken(white, 10%);
+  border-top: 1px solid darken(white, 15%);
+  .container {
+    margin-top: 30px;
+  }
+
+  // &:after {    
+  //   display: block;
+  //   content: '';
+  //   height: 12px;
+  //   // Stripes
+  //   $pastel-factor: 10%;
+  //   @include stripes(to right, 
+  //     lighten($palette-1, $pastel-factor), 
+  //     lighten($palette-2, $pastel-factor), 
+  //     lighten($palette-3, $pastel-factor), 
+  //     lighten($palette-4, $pastel-factor), 
+  //     lighten($palette-5, $pastel-factor));
+  // }
+}

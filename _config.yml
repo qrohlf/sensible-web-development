@@ -1,0 +1,12 @@
+name: Sensible Web Development
+markdown: redcarpet
+highlighter: pygments
+description: "hey look, it's a jekyll theme"
+baseurl: ''
+tracking_id: UA-40241848-1
+tracking_property: qrohlf.com
+github_repo: qrohlf/sensible-web-development
+
+collections: 
+  chapters:
+    output: true

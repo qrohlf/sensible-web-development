@@ -1,0 +1,8 @@
+<header class="site-header">
+  <div class="container text-center">
+    <h1>{% if page.title %}{{ page.title }} {% else %}{{site.name}} {% endif %}
+        {% if page.subtitle %} <small>&middot; {{ page.subtitle }}</small> {% endif %}
+    </h1>
+    {%if page.summary %}<h2>{{page.summary}}</h2>{% endif %}
+  </div>
+</header>
