@@ -1,14 +1,15 @@
 ---
 subtitle: Introduction
-summary: A hands-on intro to building modern web applications.
+summary: A hands-on guide to building modern web applications.
 layout: default
 index: 0
 is_intro: true
 permalink: /index.html
-hide_subtitle: true
 ---
 
-# Lorem ipsum dolor sit amet
+# Week 0: Introduction
+
+## Lorem ipsum dolor sit amet
 consectetur adipiscing elit. Donec eu luctus diam. In venenatis volutpat vulputate. Vivamus posuere imperdiet justo et vestibulum. Duis congue augue quis tempus posuere. Donec vel pulvinar lorem. Phasellus iaculis metus orci, feugiat venenatis dolor viverra in. Cras congue sodales consectetur. Cras iaculis augue nunc, at ultricies massa vestibulum sit amet.
 
 ## Ut ut tincidunt dui

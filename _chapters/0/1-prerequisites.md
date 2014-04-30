@@ -4,14 +4,14 @@ summary: Tools to set up before the first day of class
 layout: default
 index: 0.1
 ---
-# Please have the following tools installed by Thursday, September 4th
-We're going to be using some tools that you probably haven't run across yet in this course, so please find some time before the first class to get your environment set up.
+# Please have your environment ready by Thursday, September 4th
+We're going to be using some tools that you probably haven't run across yet in this course, so please find some time before the first lab class to get your environment set up.
 
 While I highly recommend that you use a machine that you own and have full control over for this class (i.e. your laptop), all of this *should* work just fine on the Maclab computers.
 
-## OS
+## Operating System
 
-You will need to have a Unix OS on your machine for this course. 
+You will need to have a Unix-based OS (OSX or Ubuntu  recommended) on your machine for this course. 
 
 - If you're a Mac user and have OSX 10.8 or 10.9 installed, you're good to go (here's [how to check your version of OSX](http://support.apple.com/kb/ht1633))
 - If you're a Windows user, you should install Ubuntu 14.04 LTS to a secondary partition. You can download a free Ubuntu installer image [here](http://www.ubuntu.com/download/desktop/), and an installation guide [here](http://www.ubuntu.com/download/desktop/install-ubuntu-desktop).
