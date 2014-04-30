@@ -1,6 +1,6 @@
 ---
 subtitle: Introduction
-summary: A hands-on guide to building modern web applications by <a href="http://qrohlf.com/">@qrohlf</a>
+summary: A hands-on guide to building modern web applications, by <a href="http://qrohlf.com/">@qrohlf</a>
 layout: default
 index: 0
 is_intro: true

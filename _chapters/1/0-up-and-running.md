@@ -7,4 +7,4 @@ is_intro: true
 
 # Week 1: Up & Running with Ruby and Sinatra
 
-foobar
+This is all in my notebook

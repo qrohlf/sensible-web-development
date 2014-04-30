@@ -29,13 +29,13 @@ Week 1: (Sep. 11)
 You should have your HTML to-do list turned in on GitHub and tagged with the `v0.1.0` tag.
 
 ### Reading Due
-You should have completed the intro to ruby guide at http://tryruby.org/ and the into to git guide at http://try.github.io.
+http://tryruby.org/ and http://try.github.io.
 
 ### Workshop Topic
 Up and Running with Ruby and Sinatra
 
 ### Lab Assigned
-Convert your to-do list to a Sinatra app that reads data from a text document and renders it to HTML.
+Convert your to-do list to a Sinatra app
 
 Week 2: (Sep. 18)
 ---------------------------------------------------------------------------------------------------
