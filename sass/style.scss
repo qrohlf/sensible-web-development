@@ -1,7 +1,7 @@
 @import "pygments";
 @import "variables";
 
-$header-background: #BC370D;
+$header-background: $brand-primary;
 @import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap";
 
 /////////////////////////////////////////////////
@@ -15,11 +15,20 @@ header.site-header {
   background-position: center center;
   overflow: hidden;
   position: relative;
-  z-index: -1;
+  // z-index: -1;
   text-shadow: -1px -1px 3px rgba(0, 0, 0, 0.4);
   h1 {
     font-size: $font-size-base*4;
     font-weight: 600;
+    a {
+      display: inline-block;
+      @include transition(0.15s all ease);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: none;
+      @include translate(0, -2px);
+    }
   }
   h2 {
     font-size: $font-size-base*4;

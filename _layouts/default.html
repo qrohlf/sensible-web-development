@@ -20,7 +20,7 @@
 					<ul id="toc" class="list-group toc collapse in">
 						{% assign sorted_chapters = site.chapters %}
 						{% for chapter in sorted_chapters %}
-							<a href="{{site.baseurl}}{{chapter.url}}" class="list-group-item{% if chapter.is_intro %} chapter-intro {% endif %}">{{chapter.index}} &middot; {{ chapter.subtitle }}</a>
+							<a href="{{site.baseurl}}{{chapter.url}}" class="list-group-item{% if chapter.is_intro %} chapter-intro {% endif %} {% if chapter.url == page.url %} active {% endif %}">{{chapter.index}} &middot; {{ chapter.subtitle }}</a>
 						{% endfor %}
 					</ul>
 				</div>

@@ -4580,17 +4580,26 @@ button.close {
 
 header.site-header {
   color: white;
-  background-color: #BC370D;
+  background-color: #428bca;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   overflow: hidden;
   position: relative;
-  z-index: -1;
   text-shadow: -1px -1px 3px rgba(0, 0, 0, 0.4); }
   header.site-header h1 {
     font-size: 56px;
     font-weight: 600; }
+    header.site-header h1 a {
+      display: inline-block;
+      -webkit-transition: 0.15s all ease;
+      transition: 0.15s all ease;
+      text-decoration: none; }
+    header.site-header h1 a:hover {
+      text-decoration: none;
+      -webkit-transform: translate(0, -2px);
+      -ms-transform: translate(0, -2px);
+      transform: translate(0, -2px); }
   header.site-header h2 {
     font-size: 56px;
     font-weight: 300;
