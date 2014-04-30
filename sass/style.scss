@@ -1,39 +1,12 @@
 @import "pygments";
 @import "variables";
+
 $header-background: #BC370D;
-
-$font-family-sans-serif: 'Open Sans', sans-serif;
-$headings-font-weight: 600;
-$line-height-base: 1.45;
-$line-height-computed: 2*14px;
-$font-size-h2: 20px;
-$font-size-h3: 16px;
-
-
-
 @import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap";
 
-h1 {
-  font-weight: 300;
-  margin-top: 64px;
-}
-
-img {
-  @include img-responsive;
-}
-
-.site-content {
-  background-color: #fff;
-  position: relative;
-}
-
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
-
+/////////////////////////////////////////////////
+// Header Styles
+/////////////////////////////////////////////////
 header.site-header {
   color: white;
   background-color: $header-background;
@@ -43,40 +16,95 @@ header.site-header {
   overflow: hidden;
   position: relative;
   z-index: -1;
-
+  text-shadow: -1px -1px 3px rgba(0, 0, 0, 0.4);
   h1 {
     font-size: $font-size-base*4;
     font-weight: 600;
-    text-shadow: -1px -1px 3px rgba(0, 0, 0, 0.4);
-    small {
-      font-size: $font-size-base*4;
-      font-weight: 300;
-      color: inherit;
-    }
   }
   h2 {
+    font-size: $font-size-base*4;
     font-weight: 300;
-    color: white;
+    color: inherit;
   }
+  p {
+    // font-weight: 300;
+    color: white;
+    font-size: 16px;
+  }
+
   a, a:visited, a:hover {
     text-decoration: underline;
     color: inherit;
   }
   > .container {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 32px;
+    padding-bottom: 32px;
     @media (min-width: $screen-md-min) {
-      padding-top: 4rem;
-      padding-bottom: 4rem;
+      padding-top: 64px;
+      padding-bottom: 64px;
     }
   }
 }
 
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 80px + 60px; //::after is 12px high
+/////////////////////////////////////////////////
+// Content Styles
+/////////////////////////////////////////////////
+.site-content {
+  padding: 16px 0;
+  background-color: #fff;
+  position: relative;
+  h1 {
+    font-weight: 300;
+  }
+
+  img {
+    @include img-responsive;
+  }
 }
 
+.site-sidebar {
+  .list-group.toc {
+    .list-group-item {
+      padding-left: 2*15px;
+      &.chapter-intro {
+        padding-left: 15px;
+        @extend strong;
+      }
+    }
+  }
+
+  .btn-collapse {
+    @extend .visible-xs;
+    @extend .visible-sm;
+    padding: 9px 10px;
+    @include navbar-vertical-align(34px);
+    background-color: transparent;
+    background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+    border: 1px solid transparent;
+    border-radius: $border-radius-base;
+    margin: 8px auto;
+  }
+
+  .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: $navbar-default-toggle-icon-bar-bg;
+  }
+
+  .icon-bar + .icon-bar {
+    margin-top: 4px;
+  }
+}
+
+/////////////////////////////////////////////////
+// Sticky Footer Styles
+/////////////////////////////////////////////////
+html {
+  position: relative;
+  min-height: 100%;
+}
 footer {
   position: absolute;
   bottom: 0;
@@ -88,18 +116,8 @@ footer {
   .container {
     margin-top: 30px;
   }
-
-  // &:after {    
-  //   display: block;
-  //   content: '';
-  //   height: 12px;
-  //   // Stripes
-  //   $pastel-factor: 10%;
-  //   @include stripes(to right, 
-  //     lighten($palette-1, $pastel-factor), 
-  //     lighten($palette-2, $pastel-factor), 
-  //     lighten($palette-3, $pastel-factor), 
-  //     lighten($palette-4, $pastel-factor), 
-  //     lighten($palette-5, $pastel-factor));
-  // }
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 80px + 60px; //::after is 12px high
 }

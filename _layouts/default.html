@@ -10,16 +10,21 @@
 	<div class="site-content">
 		<div class="container">
 			<div class="row">
-				<div class="site-sidebar col-sm-3">
-					<h2>Contents</h2>
-					<ul class="list-group">
-						{% assign contents = site.chapters | sort:'name' %}
-						{% for chapter in contents %}
-							<a href="{{site.baseurl}}{{chapter.url}}" class="list-group-item">{{chapter.index}}. {{ chapter.subtitle }}</a>
+				<div class="site-sidebar col-md-3">
+					<button type="button" class="btn btn-collapse" data-toggle="collapse" data-target="#toc">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<ul id="toc" class="list-group toc collapse in">
+						{% assign sorted_chapters = site.chapters %}
+						{% for chapter in sorted_chapters %}
+							<a href="{{site.baseurl}}{{chapter.url}}" class="list-group-item{% if chapter.is_intro %} chapter-intro {% endif %}">{{chapter.index}} &middot; {{ chapter.subtitle }}</a>
 						{% endfor %}
 					</ul>
 				</div>
-				<div class="site-main col-sm-9">
+				<div class="site-main col-md-9">
 					{{ content }}
 				</div>
 			</div>
@@ -27,6 +32,7 @@
 	</div>
 
 	{% include footer.html %}
+	<script src="//use.edgefonts.net/open-sans:n3,i3,n4,i4,n6,i6,n7,i7,n8,i8.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	<script src="http://d3js.org/d3.v3.min.js"></script>

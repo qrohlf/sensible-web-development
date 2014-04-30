@@ -1,5 +1,5 @@
 ---
 ---
 {% include trianglify.min.js %}
-{% include header.js %}
+{% include app.js %}
 {% include analytics.js %}

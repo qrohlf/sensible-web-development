@@ -16,6 +16,19 @@ if (!mobileBrowser()) { // parallax scrolling is janky on mobile, so we don't do
     });
 };
 
+// collapse nav on small screens
+$(window).resize(function(){
+  if ($(window).width() >= 992){  
+    $('#toc').addClass('in');
+  }
+  if ($(window).width() <= 992){  
+    $('#toc').removeClass('in');
+  }
+});
+$(document).ready(function() {
+    $(window).trigger('resize');
+})
+
 // trianglify
 $(document).ready(function() {
     var palettes = [
@@ -39,12 +52,12 @@ $(document).ready(function() {
         // ["#ffffff","#f0f0f0","#d9d9d9","#bdbdbd","#969696","#737373","#525252","#252525","#000000"], // Greys:
         ["#b35806","#e08214","#fdb863","#fee0b6","#f7f7f7","#d8daeb","#b2abd2","#8073ac","#542788"], // PuOr:
         // ["#8c510a","#bf812d","#dfc27d","#f6e8c3","#f5f5f5","#c7eae5","#80cdc1","#35978f","#01665e"], // BrBG:
-        ["#762a83","#9970ab","#c2a5cf","#e7d4e8","#f7f7f7","#d9f0d3","#a6dba0","#5aae61","#1b7837"], // PRGn:
+        // ["#762a83","#9970ab","#c2a5cf","#e7d4e8","#f7f7f7","#d9f0d3","#a6dba0","#5aae61","#1b7837"], // PRGn:
         // ["#c51b7d","#de77ae","#f1b6da","#fde0ef","#f7f7f7","#e6f5d0","#b8e186","#7fbc41","#4d9221"], // PiYG:
         ["#b2182b","#d6604d","#f4a582","#fddbc7","#f7f7f7","#d1e5f0","#92c5de","#4393c3","#2166ac"], // RdBu:
         // ["#b2182b","#d6604d","#f4a582","#fddbc7","#ffffff","#e0e0e0","#bababa","#878787","#4d4d4d"], // RdGy:
         ["#d73027","#f46d43","#fdae61","#fee090","#ffffbf","#e0f3f8","#abd9e9","#74add1","#4575b4"], // RdYlBu:
-        ["#d53e4f","#f46d43","#fdae61","#fee08b","#ffffbf","#e6f598","#abdda4","#66c2a5","#3288bd"], // Spectral:
+        // ["#d53e4f","#f46d43","#fdae61","#fee08b","#ffffbf","#e6f598","#abdda4","#66c2a5","#3288bd"], // Spectral:
         ["#d73027","#f46d43","#fdae61","#fee08b","#ffffbf","#d9ef8b","#a6d96a","#66bd63","#1a9850"]  // RdYlGn:
     ];
 
