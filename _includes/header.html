@@ -1,6 +1,6 @@
 <header class="site-header">
   <div class="container text-center">
-    <h1><a href="/{{baseurl}}">{% if page.title %}{{ page.title }} {% else %}{{site.name}} {% endif %}</a></h1>
+    <h1 {% if page.hide_subtitle %}class="offset"{% endif %}><a href="/{{baseurl}}">{% if page.title %}{{ page.title }} {% else %}{{site.name}} {% endif %}</a></h1>
     {% if page.subtitle %}{% unless page.hide_subtitle %}<h2>{{ page.subtitle }}</h2>{% endunless %}{% endif %}
     {%if page.summary %}<p>{{page.summary}}</p>{% endif %}
   </div>

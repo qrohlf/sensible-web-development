@@ -15,15 +15,21 @@ header.site-header {
   background-position: center center;
   overflow: hidden;
   position: relative;
-  min-height: 200px;
+  min-height: 240px;
   @media (min-width: $screen-sm-min) {
     min-height: 350px;
   }
   text-shadow: -1px -1px 3px rgba(0, 0, 0, 0.4);
   h1 {
     font-size: $font-size-base*2;
+    &.offset {
+      margin-top: 48px;
+    }
     @media (min-width: $screen-sm-min) {
       font-size: $font-size-base*4;
+      &.offset {
+        margin-top: 64px;
+      }
     }
     font-weight: 600;
     a {
