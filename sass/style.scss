@@ -30,10 +30,11 @@ header.site-header {
       display: inline-block;
       @include transition(0.15s all ease-in-out);
       text-decoration: none;
+      -webkit-transform: translateZ(0px);
     }
     a:hover {
       text-decoration: none;
-      @include scale(1.02);
+      @include scale(1.01);
     }
   }
   h2 {
@@ -72,7 +73,7 @@ header.site-header {
   // Headings
   h1 {
     font-weight: 300;
-    margin-top: 64px;
+    margin-top: 48px;
   }
   & h1:first-child {
     margin-top: 0;
@@ -98,7 +99,8 @@ header.site-header {
 
   // paragraphs
   p {
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   //pagination

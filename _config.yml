@@ -1,5 +1,11 @@
 name: Sensible Web Development
 markdown: redcarpet
+redcarpet:
+  extensions: 
+    - tables
+    - with_toc_data
+    - autolink
+    - fenced_code_blocks
 highlighter: pygments
 baseurl: ''
 tracking_id: UA-40241848-1

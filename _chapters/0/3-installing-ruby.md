@@ -1,7 +1,7 @@
 ---
 subtitle: Installing Ruby
 layout: default
-index: 0.2
+index: 0.3
 ---
 
 # Install Ruby
@@ -55,30 +55,23 @@ If you're on Ubuntu, you'll need to install rbenv manually. Follow these instruc
 	```
 
 ## Installing & Using a New Ruby Version (OSX and Ubuntu)
-Once you've got rbenv installed, you can install a new Ruby version with a single command:
+Once you've got rbenv installed, you can install Ruby 2.1.1 with a single command:
 
 ```bash
 rbenv install 2.1.1 #install Ruby 2.1.1
 ```
 *note that you can see a list of all the available Ruby versions by running `rbenv install --list`*
 
-You can then set your system to use the new Ruby version by default with
+Set your system to use the new Ruby version by default with
 
 ```bash
 rbenv global 2.1.1
 ```
 
-You can also specify your ruby version for a specific project
-
-```bash
-cd ~/path/to/my/project
-rbenv local 2.1.1
-```
-
-When using a new Ruby version for the first time, you'll probably want to install Bundler for that Ruby version:
+When using a new Ruby version for the first time, you'll also need to install Bundler for that Ruby version:
 
 ```bash
 gem install bundler
 ```
 
-Once you think you have everything working, verify that `ruby -v` outputs `ruby 2.1.1` and you're done!
+Once you think you have everything working, verify that `ruby -v` outputs `ruby 2.1.1` and you're ready to move on!

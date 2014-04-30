@@ -7,22 +7,15 @@ is_intro: true
 permalink: /index.html
 ---
 
-# Week 0: Introduction
+# Introduction
 
-## Lorem ipsum dolor sit amet
-consectetur adipiscing elit. Donec eu luctus diam. In venenatis volutpat vulputate. Vivamus posuere imperdiet justo et vestibulum. Duis congue augue quis tempus posuere. Donec vel pulvinar lorem. Phasellus iaculis metus orci, feugiat venenatis dolor viverra in. Cras congue sodales consectetur. Cras iaculis augue nunc, at ultricies massa vestibulum sit amet.
+## Wecolme to the lab section of CS393.
+This is the online text for this course. It contains background information about each lesson as well as homework assignments, links to external resources, and troubleshooting tips. If you're curious about how it was made, the site is built by [Jekyll](http://jekyllrb.com) – a static site generator written in Ruby, and uses [Twitter Bootstrap](http://getbootstrap.com) and [SASS](http://sass-lang.com) for styling. The header background images are procedurally generated using a tool that I wrote called [Trianglify](http://qrohlf.com/trianglify/).
 
-## Ut ut tincidunt dui
-vel dapibus sapien. Sed venenatis urna a est porttitor convallis. Cras congue diam quis lacus blandit imperdiet. Nam pharetra facilisis hendrerit. In quis posuere augue, sed molestie risus. In urna nisl, feugiat sit amet odio iaculis, accumsan luctus turpis. Fusce adipiscing tincidunt dignissim. Fusce lacinia, lacus vitae faucibus mattis, dui enim viverra ante, at convallis quam dui et velit. Duis eget iaculis nulla.
+The format for this class is a little bit unique. On Tuesdays, Jens will be lecturing on some of the fundamentals of computer networking, Internet protocols, and other relevant topics. On Thursdays, I'll running a 30-60 minute workshop at the start of class, then helping you get started with the assignment for the week.
 
-## Sed dictum lacus nibh
- in convallis enim mattis non. Morbi sit amet molestie elit. Donec id vulputate enim. Integer porta vestibulum felis, eu aliquam ipsum mattis in. Suspendisse ultrices et elit vitae tincidunt. Fusce cursus felis sit amet mollis dignissim. Curabitur nec sagittis ante. Nullam auctor molestie arcu. Suspendisse non quam pharetra turpis ultricies ultrices. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed felis urna, vulputate vitae suscipit sed, tincidunt et erat. Proin lacinia nisl sit amet enim pretium scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae ultrices libero, sed lacinia velit. Cras sed sapien blandit, viverra nibh vitae, semper est.
+# Assignments
+All of the course assignments are already posted online, in the introduction to that week's chapter. You will be turning in lab assignments via [GitHub](https://github.com). There is no penalty for late work, but because each lab builds off the previous week's code it's going to be a lot of work to catch up if you fall behind. Finishing the labs on time will ensure that you get the most out of this class, and it will also ensure that I have time to give you feedback before the next week's assignment is due.
 
-### Quisque luctus 
-vulputate magna, id sagittis quam faucibus sed. 
-
-### Duis pulvinar turpis enim
- et blandit libero pretium ac. Nam eu lacus vel eros lacinia tincidunt. Vivamus sed tempus dui. 
-
-# Aliquam erat volutpat. 
- Aenean elementum nisl libero, sit amet placerat est auctor non. Fusce fringilla sit amet quam vitae feugiat. Aenean nulla odio, adipiscing blandit congue ac, interdum et magna. Fusce feugiat rhoncus orci sit amet laoreet. Maecenas laoreet suscipit ante eget dignissim. Vestibulum vulputate orci id nisl suscipit, rhoncus mollis tortor gravida.
+# Office Hours
+TBA
