@@ -515,16 +515,16 @@ h4, .h4, h5, .h5, h6, .h6 {
     font-size: 75%; }
 
 h1, .h1 {
-  font-size: 36px; }
+  font-size: 40px; }
 
 h2, .h2 {
-  font-size: 30px; }
-
-h3, .h3 {
   font-size: 24px; }
 
+h3, .h3 {
+  font-size: 16px; }
+
 h4, .h4 {
-  font-size: 18px; }
+  font-size: 16px; }
 
 h5, .h5 {
   font-size: 14px; }
@@ -783,7 +783,7 @@ pre {
       width: 970px; } }
   @media (min-width: 1200px) {
     .container {
-      width: 1170px; } }
+      width: 1070px; } }
 
 .container-fluid {
   margin-right: auto;
@@ -4619,11 +4619,27 @@ header.site-header {
         padding-bottom: 64px; } }
 
 .site-content {
-  padding: 16px 0;
+  padding: 32px 0;
   background-color: #fff;
   position: relative; }
   .site-content h1 {
-    font-weight: 300; }
+    font-weight: 300;
+    margin-top: 64px; }
+  .site-content h1:first-child {
+    margin-top: 0; }
+  .site-content h2 {
+    margin-top: 48px; }
+  .site-content h3 {
+    float: left;
+    margin-top: 0;
+    margin-right: 5px;
+    margin-bottom: 0px; }
+    .site-content h3::after {
+      content: ' \00b7'; }
+  .site-content p {
+    margin-bottom: 20px; }
+  .site-content .site-paging {
+    margin-top: 32px; }
   .site-content img {
     display: block;
     max-width: 100%;

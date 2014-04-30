@@ -26,6 +26,18 @@
 				</div>
 				<div class="site-main col-md-9">
 					{{ content }}
+					<div class="site-paging row">
+						<div class="col-xs-12">
+							{% for chapter in sorted_chapters %}
+								{% if chapter.url == page.url %}
+									{% assign next = sorted_chapters[forloop.index] %}
+								{% endif %}
+							{% endfor %}
+							{% if next.url %}
+								<a class="btn btn-primary btn-lg center-block" href="{{next.url}}">Next: {{next.subtitle}} &raquo;</a>
+							{% endif %}
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

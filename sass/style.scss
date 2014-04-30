@@ -59,11 +59,45 @@ header.site-header {
 // Content Styles
 /////////////////////////////////////////////////
 .site-content {
-  padding: 16px 0;
+  padding: 32px 0;
   background-color: #fff;
   position: relative;
+
+  // Headings
   h1 {
     font-weight: 300;
+    margin-top: 64px;
+  }
+  & h1:first-child {
+    margin-top: 0;
+  }
+
+  h2 {
+    margin-top: 48px;
+  }
+
+  h3 {
+    float: left;
+    margin-top: 0;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    &::after {
+      content: ' \00b7';
+    }
+  }
+
+  h4 {
+
+  }
+
+  // paragraphs
+  p {
+    margin-bottom: 20px;
+  }
+
+  //pagination
+  .site-paging {
+    margin-top: 32px;
   }
 
   img {
