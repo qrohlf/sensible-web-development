@@ -8,8 +8,10 @@ if (!mobileBrowser()) { // parallax scrolling is janky on mobile, so we don't do
     jQuery(document).ready(function($) {
         $(window).scroll( function()
         {
-            var scroll = $(window).scrollTop(), slowScroll = scroll/3;
+            var scroll = $(window).scrollTop(), 
+                slowScroll = scroll/3;
             var headerheight = $('header').height();
+            if (scroll > headerheight) return; // don't do any work if it's out of sight!
             $('header').css({ transform: "translateY(" + slowScroll + "px)" });
             $('header .container').css({ opacity: Math.min(1, 1.2 - scroll/headerheight) });
         });
@@ -62,7 +64,7 @@ $(document).ready(function() {
     ];
 
     var colors = palettes[Math.floor(Math.random()*palettes.length)];
-    console.log(colors);
+    console.log(colors); // log the currently selected colors so I can disable them if I don't like them
 
     var t = new Trianglify({
         noiseIntensity: 0,
