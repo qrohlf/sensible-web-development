@@ -7,7 +7,7 @@ index: 0.2
 # Please have your environment ready by Thursday, September 4th
 We're going to be using some tools that you probably haven't run across yet in this course, so please find some time before the first lab class to get your environment set up.
 
-While I highly recommend that you use a machine that you own and have full admin access to for this class (i.e. your laptop), all of this *should* work on the Maclab computers.
+While I highly recommend that you use a machine that you own and have full admin access to for this class (i.e. your laptop), some of this *might* work on the Maclab computers.
 
 ## Operating System
 
