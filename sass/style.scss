@@ -77,31 +77,30 @@ header.site-header {
   position: relative;
 
   // Headings
-  h1 {
-    font-weight: 300;
-    margin-top: 48px;
-  }
-  & h1:first-child {
-    margin-top: 0;
-  }
+  .site-main > {
+    h1 {
+      font-weight: 300;
+      margin-top: 48px;
+    }
+    & h1:first-child {
+      margin-top: 0;
+    }
 
-  h2 {
-    margin-top: 48px;
-  }
+    h2 {
+      margin-top: 48px;
+    }
 
-  h3 {
-    float: left;
-    margin-top: 0;
-    margin-right: 5px;
-    margin-bottom: 0px;
-    &::after {
-      content: ' \00b7';
+    h3 {
+      float: left;
+      margin-top: 0;
+      margin-right: 5px;
+      margin-bottom: 0px;
+      &::after {
+        content: ' \00b7';
+      }
     }
   }
-
-  h4 {
-
-  }
+  
 
   // paragraphs
   p {
