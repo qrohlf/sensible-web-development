@@ -17,6 +17,9 @@
   ],
   "dependencies": {
     "bootstrap-sass-official": "~3.1.1",
-    "trianglify": "~0.1.2"
+    "trianglify": "~0.1.2",
+    "d3": "~3.4.6",
+    "jquery": "~2.1.0",
+    "bootstrap": "~3.1.1"
   }
 }
