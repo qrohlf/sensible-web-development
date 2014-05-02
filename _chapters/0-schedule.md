@@ -5,7 +5,7 @@ layout: default
 ---
 
 # Schedule
-This is a general overview for the whole course. If you have a question about a specific week's or lab, you can find more info in the introduction to the corresponding chapter.
+This is a general overview for the whole course. If you have a question about a specific week or lab, you can find more info in the introduction to the corresponding chapter.
 
 Week 0:  (Sep. 4)
 ---------------------------------------------------------------------------------------------------
