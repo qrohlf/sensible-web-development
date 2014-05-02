@@ -5,7 +5,6 @@ layout: default
 index: 0
 is_intro: true
 hide_subtitle: true
-permalink: /index.html
 ---
 
 # Introduction
@@ -25,3 +24,9 @@ All of the course assignments are already posted on the schedule, and details fo
 
 # Office Hours
 TBA
+
+<div class="site-paging row">
+	<div class="col-xs-12">
+		<a class="btn btn-primary btn-lg center-block" href="/chapters/0-schedule.html">Next: Setup &raquo;</a>
+	</div>
+</div>

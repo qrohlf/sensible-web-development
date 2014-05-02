@@ -254,7 +254,7 @@ a:active, a:hover {
 abbr[title] {
   border-bottom: 1px dotted; }
 
-b, strong, .site-sidebar .list-group.toc .list-group-item.chapter-intro {
+b, strong, .site-sidebar .list-group.toc > .list-group-item {
   font-weight: bold; }
 
 dfn {
@@ -3700,10 +3700,10 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
   margin-bottom: -1px;
   background-color: #fff;
   border: 1px solid #ddd; }
-  .list-group-item:first-child {
+  .list-group-item:first-child, .site-sidebar .list-group.toc > div:first-child a.list-group-item:first-child, .site-sidebar .list-group.toc > a.list-group-item:first-child {
     border-top-right-radius: 4px;
     border-top-left-radius: 4px; }
-  .list-group-item:last-child {
+  .list-group-item:last-child, .site-sidebar .list-group.toc > div:last-child a.list-group-item:last-child, .site-sidebar .list-group.toc > a.list-group-item:last-child {
     margin-bottom: 0;
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px; }
@@ -3845,16 +3845,16 @@ a.list-group-item-danger {
   .panel > .list-group .list-group-item {
     border-width: 1px 0;
     border-radius: 0; }
-  .panel > .list-group:first-child .list-group-item:first-child {
+  .panel > .list-group:first-child .list-group-item:first-child, .panel > .list-group:first-child .site-sidebar .list-group.toc > div:first-child a.list-group-item:first-child, .site-sidebar .list-group.toc > div:first-child .panel > .list-group:first-child a.list-group-item:first-child, .panel > .list-group:first-child .site-sidebar .list-group.toc > a.list-group-item:first-child, .site-sidebar .list-group.toc > .panel > .list-group:first-child a.list-group-item:first-child {
     border-top: 0;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px; }
-  .panel > .list-group:last-child .list-group-item:last-child {
+  .panel > .list-group:last-child .list-group-item:last-child, .panel > .list-group:last-child .site-sidebar .list-group.toc > div:last-child a.list-group-item:last-child, .site-sidebar .list-group.toc > div:last-child .panel > .list-group:last-child a.list-group-item:last-child, .panel > .list-group:last-child .site-sidebar .list-group.toc > a.list-group-item:last-child, .site-sidebar .list-group.toc > .panel > .list-group:last-child a.list-group-item:last-child {
     border-bottom: 0;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px; }
 
-.panel-heading + .list-group .list-group-item:first-child {
+.panel-heading + .list-group .list-group-item:first-child, .panel-heading + .list-group .site-sidebar .list-group.toc > div:first-child a.list-group-item:first-child, .site-sidebar .list-group.toc > div:first-child .panel-heading + .list-group a.list-group-item:first-child, .panel-heading + .list-group .site-sidebar .list-group.toc > a.list-group-item:first-child, .site-sidebar .list-group.toc > .panel-heading + .list-group a.list-group-item:first-child {
   border-top-width: 0; }
 
 .panel > .table, .panel > .table-responsive > .table {
@@ -4660,8 +4660,15 @@ header.site-header {
 
 .site-sidebar .list-group.toc .list-group-item {
   padding-left: 30px; }
-  .site-sidebar .list-group.toc .list-group-item.chapter-intro {
-    padding-left: 15px; }
+.site-sidebar .list-group.toc > .list-group-item {
+  padding-left: 15px; }
+.site-sidebar .list-group.toc .list-group-item:last-child, .site-sidebar .list-group.toc .site-sidebar .list-group.toc > div:last-child a.list-group-item:last-child, .site-sidebar .list-group.toc > div:last-child .site-sidebar .list-group.toc a.list-group-item:last-child, .site-sidebar .list-group.toc .site-sidebar .list-group.toc > a.list-group-item:last-child, .site-sidebar .list-group.toc > .site-sidebar .list-group.toc a.list-group-item:last-child {
+  margin-bottom: -1px;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit; }
+.site-sidebar .list-group.toc .list-group-item:first-child, .site-sidebar .list-group.toc .site-sidebar .list-group.toc > div:first-child a.list-group-item:first-child, .site-sidebar .list-group.toc > div:first-child .site-sidebar .list-group.toc a.list-group-item:first-child, .site-sidebar .list-group.toc .site-sidebar .list-group.toc > a.list-group-item:first-child, .site-sidebar .list-group.toc > .site-sidebar .list-group.toc a.list-group-item:first-child {
+  border-top-right-radius: inherit;
+  border-top-left-radius: inherit; }
 .site-sidebar .btn-collapse {
   padding: 9px 10px;
   margin-top: 8px;

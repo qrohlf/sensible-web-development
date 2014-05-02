@@ -2,7 +2,6 @@
 subtitle: Schedule
 summary: (subject to change)
 layout: default
-index: 0.1
 ---
 
 # Schedule
@@ -11,7 +10,7 @@ Week 0:  (Sep. 4)
 ---------------------------------------------------------------------------------------------------
 
 ### Assignments Due
-You should have your development environment set up according to sections 0.2-0.4 in this chapter. 
+You should have your development environment up and running before lab. 
 
 ### Reading Due 
 [MDN Introduction to HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)

@@ -17,27 +17,23 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<ul id="toc" class="list-group toc collapse">
-						{% assign sorted_chapters = site.chapters %}
-						{% for chapter in sorted_chapters %}
-							<a href="{{site.baseurl}}{{chapter.url}}" class="list-group-item{% if chapter.is_intro %} chapter-intro {% endif %} {% if chapter.url == page.url %} active {% endif %}">{{chapter.index}} &middot; {{ chapter.subtitle }}</a>
-						{% endfor %}
-					</ul>
+					{% toc %}
 				</div>
 				<div class="site-main col-md-9">
 					{{ content }}
-					<div class="site-paging row">
-						<div class="col-xs-12">
-							{% for chapter in sorted_chapters %}
-								{% if chapter.url == page.url %}
-									{% assign next = sorted_chapters[forloop.index] %}
-								{% endif %}
-							{% endfor %}
-							{% if next.url %}
+					
+					{% for chapter in site.chapters %}
+						{% if chapter.url == page.url %}
+							{% assign next = site.chapters[forloop.index] %}
+						{% endif %}
+					{% endfor %}
+					{% if next.url %}
+						<div class="site-paging row">
+							<div class="col-xs-12">
 								<a class="btn btn-primary btn-lg center-block" href="{{next.url}}">Next: {{next.subtitle}} &raquo;</a>
-							{% endif %}
+							</div>
 						</div>
-					</div>
+					{% endif %}
 				</div>
 			</div>
 		</div>

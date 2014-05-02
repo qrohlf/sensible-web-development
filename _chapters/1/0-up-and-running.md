@@ -14,10 +14,13 @@ This week focuses on introducing the concepts of server-side HTML generation, HT
 ## Reading
 Please complete the interactive demos at http://tryruby.org/ and http://try.github.io before class. This should take about an hour.
 
-## Assignment
+## Due
+You should have [Lab 0](/chapters/0/0-setup.html#assignment) completed.
+
+## This Week's Assignment
 <div class="panel panel-info">
   <div class="panel-heading">
-    <h3 class="panel-title">Lab 2: Sinatra Todo</h3>
+    <h3 class="panel-title">Lab 1: Sinatra Todo</h3>
   </div>
   <div class="panel-body">
     <p>We will be rewriting our static todo HTML page as a Sinatra application. Our app will read in a list of todo items from a text file and then render them as HTML when it recieves a GET request from the browser.</p>
@@ -28,10 +31,10 @@ Please complete the interactive demos at http://tryruby.org/ and http://try.gith
       <li>It should have a form for submitting new todo items to the server via a POST request.</li>
     </ul>
     <h3>Due Date:</h3>
-      <p>You should have your code pushed to GitHub and tagged with `v0.2.0` by the beginning of next week's lab class</p>
+      <p>You should have your code pushed to GitHub and tagged with `v0.1.0` by the beginning of next week's lab class</p>
     </div>
     <div class="panel-footer">
-      <p>Git tag to use for this assignment: <code>v0.2.0</code></p>
+      <p>Git tag to use for this assignment: <code>v0.1.0</code></p>
     </div>
   </div>
 </p>
