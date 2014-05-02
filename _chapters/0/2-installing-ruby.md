@@ -1,7 +1,7 @@
 ---
 subtitle: Installing Ruby
 layout: default
-index: 0.3
+index: 0.2
 ---
 
 # Install Ruby

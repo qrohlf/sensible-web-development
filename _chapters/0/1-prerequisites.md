@@ -2,7 +2,7 @@
 subtitle: Prerequisites
 summary: Tools to set up before the first day of class
 layout: default
-index: 0.2
+index: 0.1
 ---
 # Please have your environment ready by Thursday, September 4th
 We're going to be using some tools that you probably haven't run across yet in this course, so please find some time before the first lab class to get your environment set up.

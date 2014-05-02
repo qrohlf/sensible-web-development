@@ -12,7 +12,7 @@ index: 0
 This week, we'll be getting our envornments set up with Ruby and some other tools that are necessary for this class, as well as going over some basic HTML syntax and the GitHub turn-in system.
 
 ## Due
-You should have your development environment set up before class, according to sections 0.2-0.4 in this chapter.
+You should have your development environment set up before class, according to sections 0.1-0.3 in this chapter.
 
 ## Reading
 Please read the short [MDN Introduction to HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction) before class.

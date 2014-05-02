@@ -2,7 +2,7 @@
 subtitle: Verifying Your Setup
 summary: Tools to set up before the first day of class
 layout: default
-index: 0.4
+index: 0.3
 ---
 
 # It's time to test your setup!
