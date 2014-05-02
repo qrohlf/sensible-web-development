@@ -1,5 +1,5 @@
 ---
-subtitle: Schedule
+subtitle: Course Schedule
 summary: (subject to change)
 layout: default
 ---

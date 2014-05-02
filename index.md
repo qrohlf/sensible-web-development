@@ -27,6 +27,6 @@ TBA
 
 <div class="site-paging row">
 	<div class="col-xs-12">
-		<a class="btn btn-primary btn-lg center-block" href="/chapters/0-schedule.html">Next: Setup &raquo;</a>
+		<a class="btn btn-primary btn-lg center-block" href="/chapters/0-schedule.html">Next: Course Schedule &raquo;</a>
 	</div>
 </div>
