@@ -16,6 +16,22 @@ If you're curious about how it was made, the site is built by [Jekyll](http://je
 
 The format for this class is similar to a lab course. On Tuesdays, Jens will be lecturing on some of the fundamentals of computer networking, Internet protocols, and other relevant topics. On Thursdays, I'll running a 30-60 minute workshop at the start of class, introduce the lab assignment for the week, and you'll have the rest of the class time to work on the lab - I'll be available to answer questions and help you troubleshoot your projects.
 
+# Topics
+
+We'll be covering the following topics in this course:
+
+- HTML & CSS basics
+- HTTP basics
+- Git/GitHub
+- Semantic Versioning
+- Model-View-Controller design patterns
+- Ruby, Sinatra, and ActiveRecord/Rails
+- ERB and HAML templating languages
+- CSS Preprocessors
+- Client-side JavaScript
+
+We will also take a look at Node.js and AngularJS, with opportunities for students who are interested in those subjects to explore them further.
+
 # About Me
 I've been working as a professional web developer for 6 years now. You can see some of the projects I've worked on and the articles I've written at http://qrohlf.com. This class is my way of giving back to the Lewis & Clark CS community, and I appreciate Jens' help in making it happen.
 
