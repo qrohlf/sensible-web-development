@@ -17,7 +17,11 @@ You will need to have a Unix-based OS (OSX or Ubuntu  recommended) on your machi
 - If you're a Windows user, you should install Ubuntu 14.04 LTS to a secondary partition. You can download a free Ubuntu installer image [here](http://www.ubuntu.com/download/desktop/), and an installation guide [here](http://www.ubuntu.com/download/desktop/install-ubuntu-desktop).
 - I will be available to help troubleshoot Linux install issues after the first class on Tuesday (Sep. 2).
 
-## Overview
+## GitHub
+
+We will be using [GitHub](https://github.com) to turn in assignments for this course. If you don't have a GitHub account, please [create one now](https://github.com/join).
+
+## Tools
 
 We will be using the following tools and libraries in this course
 

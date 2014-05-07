@@ -61,7 +61,7 @@ Once you've got rbenv installed, you can install Ruby 2.1.1 with a single comman
 rbenv install 2.1.1 #install Ruby 2.1.1
 ```
 
-<div class="alert alert-warning">Tip: view a list of all the available Ruby versions you can install with <code>rbenv install --list</code></div>
+<div class="alert alert-info">Tip: view a list of all the available Ruby versions you can install with <code>rbenv install --list</code></div>
 
 Next, set your system to use the new Ruby version by default with
 

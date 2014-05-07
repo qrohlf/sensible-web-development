@@ -29,6 +29,7 @@ Please read the short [MDN Introduction to HTML](https://developer.mozilla.org/e
       <li>You should use an appropriate list element (<code>ul</code> or <code>li</code> for your list)</li>
       <li>Your list should include at least 3 items with due dates and 3 items without due dates.</li>
       <li>Your list should pass the <a href="http://validator.w3.org/#validate_by_input">w3c validator</a> with no errors.</li>
+      <li>Optional: use CSS to style your list</li>
     </ul>
     <h3>Due Date:</h3>
       <p>You should have your todo list written by the beginning of next week's lab class</p>
