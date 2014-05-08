@@ -13,13 +13,8 @@ module Jekyll
       current_chapter = '0' unless current_chapter =~ /^\d+$/ #default to chapter 0
       site = context.registers[:site]
       @baseurl = site.config['baseurl']
-      chapters = site.collections['chapters'].docs
 
-      chapter_groups = site.collections["chapters"].docs.group_by do |section|
-      	section.relative_path.split('/')[1] # group by chapter number
-      end
-
-      chapter_groups.sort_by{|i, c| i.to_i}.each do |i, c|
+      site.config['chapter_groups'].each do |i, c|
       	toc << list_group_item(c[0])
       	if i == current_chapter 
       		toc << "<div id='toc-group-#{i}'>"

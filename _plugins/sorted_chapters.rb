@@ -9,7 +9,7 @@ module Next
       chapter_groups_sorted.each do |k, v|
       	v.sort_by!{|i, c| i.to_i} if v.class == 'Array' # sort the sections
       end
-      # site.config['chapter_groups'] = chapter_groups
+      site.config['chapter_groups'] = chapter_groups_sorted
       site.config['sorted_chapters'] = chapter_groups_sorted.values.flatten
     end
   end

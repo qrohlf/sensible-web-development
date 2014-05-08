@@ -132,7 +132,7 @@ header.site-header {
 
     & > .list-group-item {
       padding-left: 15px;
-      @extend strong;
+      // @extend strong;
     }
 
     .list-group-item:last-child {

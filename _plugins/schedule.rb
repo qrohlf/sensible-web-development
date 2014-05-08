@@ -8,17 +8,10 @@ module Jekyll
 
     def render(context)
     	toc = []
-      @page = context.environments.first["page"]
       @site = context.registers[:site]
-      @baseurl = @site.config['baseurl']
-      chapters = @site.collections['chapters'].docs
-
-      chapter_groups = @site.collections["chapters"].docs.group_by do |section|
-      	section.relative_path.split('/')[1] # group by chapter number
-      end
 
       output = []
-      chapter_groups.sort_by{|i, c| i.to_i}.each do |i, c|
+      @site.config['chapter_groups'].each do |i, c|
       	intro = c[0].data
         next if intro['layout'] != 'intro'
         output << "<h2><a href='#{c[0].url}'>Week #{intro['index']}</a> – <small>#{intro['date']}</small></h2>"
