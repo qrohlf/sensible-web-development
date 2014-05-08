@@ -10,7 +10,7 @@ module Jekyll
     	toc = []
       @page = context.environments.first["page"]
       current_chapter = @page['relative_path'].split('/')[1] unless @page['relative_path'].nil?
-      current_chapter = '0' unless current_chapter =~ /^\d+$/ #default to chapter 0
+      current_chapter = '-1' unless current_chapter =~ /^\d+$/ #default to chapter 0
       site = context.registers[:site]
       @baseurl = site.config['baseurl']
 
