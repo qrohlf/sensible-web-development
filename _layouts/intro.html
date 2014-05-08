@@ -6,17 +6,17 @@ layout: default
 <p><em>Lab date: {{page.date}}</em></p>
 
 <h2>Overview</h2>
-<p>{{page.overview | markdownify}}</p>
+{{page.overview | markdownify}}
 
 <h2>Due</h2>
-<p>{{page.due | markdownify}}</p>
+{{page.due | markdownify}}
 
 <h2>Reading</h2>
-<p>{{page.reading | markdownify}}</p>
+{{page.reading | markdownify}}
 
 {{ content }}
 
-<h2>This Week's Assignment</h2>
+<h2 id="assignment">This Week's Assignment</h2>
 <div class="panel panel-info">
   <div class="panel-heading">
     <h3 class="panel-title">{{page.assignment.title}}</h3>
@@ -26,7 +26,7 @@ layout: default
     <h3>Requirements:</h3>
     <ul>
     	{% for req in page.assignment.requirements %}
-    	<li>{{req}}</li>
+    	<li>{{req | markdownify}}</li>
     	{% endfor %}
     </ul>
     <h3>Due Date:</h3>

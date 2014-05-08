@@ -21,10 +21,9 @@
 				</div>
 				<div class="site-main col-md-9">
 					{{ content }}
-					
-					{% for chapter in site.chapters %}
+					{% for chapter in site.sorted_chapters %}
 						{% if chapter.url == page.url %}
-							{% assign next = site.chapters[forloop.index] %}
+							{% assign next = site.sorted_chapters[forloop.index] %}
 						{% endif %}
 					{% endfor %}
 					{% if next.url %}

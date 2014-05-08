@@ -3,15 +3,20 @@ subtitle: Ruby and Sinatra
 layout: intro
 index: 1
 
-date: September 11
+date: 
+    September 11
 
-overview: This week focuses on introducing the concepts of server-side HTML generation, HTTP requests, and basic Ruby and Sinatra syntax. In this chapter, you'll find some helpful tips on how to read and write file with Ruby, how to write a simple GET request
+overview: 
+    This week focuses on introducing the concepts of server-side HTML generation, HTTP requests, and basic Ruby and Sinatra syntax. In this chapter, you'll find some helpful tips on how to read and write file with Ruby, how to write a simple GET request
 
 reading:
     Please complete the interactive demos at http://tryruby.org/ and http://try.github.io before class. This should take about an hour.
 
 due:
     You should have [Lab 0](/chapters/0/0-setup.html#assignment) completed before class.
+
+workshop:
+    Up and Running with Ruby and Sinatra
 
 assignment:
     title: "Lab 1: Sinatra Todo"

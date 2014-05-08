@@ -7,7 +7,7 @@ index: 12.1
 
 # Git Cheatsheet
 
-This page is a quick reference of common Git-related tasks that you'll need to do in this course:
+This page is a quick reference of common Git commands that we'll be using in this course.
 
 ## Initialize a repository
 
