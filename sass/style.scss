@@ -127,7 +127,7 @@ header.site-header {
 .site-sidebar {
   .list-group.toc {
     .list-group-item {
-      padding-left: 2*15px;
+      padding-left: 40px;
     }
 
     & > .list-group-item {
@@ -154,6 +154,9 @@ header.site-header {
     & > div:first-child a.list-group-item:first-child,
     & > a.list-group-item:first-child {
       @extend .list-group-item:first-child;
+    }
+    .toc-group {
+      font-size: 0.85*$font-size-base;
     }
   }
 

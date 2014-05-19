@@ -17,7 +17,7 @@ module Jekyll
       site.config['chapter_groups'].each do |i, c|
       	toc << list_group_item(c[0])
       	if i == current_chapter 
-      		toc << "<div id='toc-group-#{i}'>"
+      		toc << "<div id='toc-group-#{i}' class='toc-group'>"
 	      	c.drop(1).each do |section|
 	      		toc << list_group_item(section)
 	      	end

@@ -24,4 +24,27 @@ If any of those commands give you errors, go back and try reinstalling the relev
 ## Running Your First Sinatra App
 Once you've verified that all of the dependencies for Ruby web development are installed, you can try running an app!
 
-(this is where the sample app clone/run instructions go)
+First, clone the example app with Git:
+
+```sh
+git clone https://gist.github.com/150b44deecf6ec3123ed.git webdev-gettingstarted
+```
+
+Next, go into the app directory and install the dependencies with bundler
+
+```sh
+cd webdev-gettingstarted
+bundle install
+```
+
+Finally, run the app
+
+```sh
+shotgun
+```
+
+And you should be able to browse to http://localhost:9393 and see a screen that looks like this:
+
+![](/images/gettingstarted.png)
+
+If you're not seeing a screen that looks like that, check the output of `shotgun` for error messages!
