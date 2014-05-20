@@ -7,7 +7,7 @@ date:
     September 4
 
 overview: 
-    This week, we'll be getting our envornments set up with Ruby and some other tools that are necessary for this class, as well as going over some basic HTML syntax and the GitHub turn-in system.
+    This week, we'll be getting our environments set up with Ruby and some other tools that are necessary for this class, as well as going over some basic HTML syntax and the GitHub turn-in system.
 
 reading: 
     Please read the short <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction">MDN Introduction to HTML</a> before class.
