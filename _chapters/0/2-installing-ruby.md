@@ -20,26 +20,32 @@ echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_pr
 ## rbenv on Ubuntu
 If you're on Ubuntu, you'll need to install rbenv manually. Follow these instructions:
 
-1. Check out rbenv into `~/.rbenv`.
+1. Make sure that the `build-essential` and `openssl-dev` metapackages is installed, as they are required to build Ruby.
+
+	```sh
+	sudo apt-get install build-essential
+	```
+
+2. Check out rbenv into `~/.rbenv`.
 
 	``` sh
 	$ git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 	```
 
-2. Add `~/.rbenv/bin` to your `$PATH` for access to the `rbenv`
+3. Add `~/.rbenv/bin` to your `$PATH` for access to the `rbenv`
    command-line utility.
 
 	``` sh
 	$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.profile
 	```
 
-3. Add `rbenv init` to your shell to enable shims and autocompletion.
+4. Add `rbenv init` to your shell to enable shims and autocompletion.
 
 	``` sh
 	$ echo 'eval "$(rbenv init -)"' >> ~/.profile
 	```
 
-4. Restart your shell so that PATH changes take effect. (Opening a new
+5. Restart your shell so that PATH changes take effect. (Opening a new
    terminal tab will usually do it.) Now check if rbenv was set up:
 
 	``` sh
