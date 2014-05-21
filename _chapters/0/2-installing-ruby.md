@@ -20,10 +20,10 @@ echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_pr
 ## rbenv on Ubuntu
 If you're on Ubuntu, you'll need to install rbenv manually. Follow these instructions:
 
-1. Make sure that the `build-essential` and `openssl-dev` metapackages is installed, as they are required to build Ruby.
+1. Make sure that the `build-essential` and `libssl-dev` metapackages is installed, as they are required to build Ruby.
 
 	```sh
-	sudo apt-get install build-essential
+	sudo apt-get install build-essential libssl-dev
 	```
 
 2. Check out rbenv into `~/.rbenv`.

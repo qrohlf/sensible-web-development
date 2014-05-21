@@ -66,7 +66,7 @@ sudo apt-get install git
 On Ubuntu, you'll need to install  sqlite with apt: 
 
 ``` sh
-sudo apt-get install sqlite3
+sudo apt-get install sqlite3 libsqlite3-dev
 ```
 
 ### Ruby and Bundler
