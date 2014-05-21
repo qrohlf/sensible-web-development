@@ -27,7 +27,7 @@ Once you've verified that all of the dependencies for Ruby web development are i
 First, clone the example app with Git:
 
 ```sh
-git clone https://gist.github.com/150b44deecf6ec3123ed.git webdev-gettingstarted
+git clone https://github.com/qrohlf/webdev-gettingstarted.git
 ```
 
 Next, go into the app directory and install the dependencies with bundler

@@ -10,7 +10,7 @@ overview:
     This week, we'll be getting our environments set up with Ruby and some other tools that are necessary for this class, as well as going over some basic HTML syntax and the GitHub turn-in system.
 
 reading: 
-    Please read the short <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction">MDN Introduction to HTML</a> before class.
+    Please read the short <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction">MDN Introduction to HTML</a> and complete the [Try Git](http://try.github.io) exercises before class.
 
 due: 
     You should have your development environment set up before class, according to sections 0.1-0.3 in this chapter.

@@ -10,7 +10,7 @@ overview:
     This week focuses on introducing the concepts of server-side HTML generation, HTTP requests, and basic Ruby and Sinatra syntax. In this chapter, you'll find some helpful tips on how to read and write file with Ruby, how to write a simple GET request
 
 reading:
-    Please complete the interactive demos at http://tryruby.org/ and http://try.github.io before class. This should take about an hour.
+    Please complete the interactive lesson at http://tryruby.org/ and read the sections on Routes, Conditions, Static Files, and the View/Templates intro in the [Sinatra Readme](http://www.sinatrarb.com/intro.html) before class. 
 
 due:
     You should have [Lab 0](/chapters/0/0-setup.html#assignment) completed before class.
