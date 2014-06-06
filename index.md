@@ -16,6 +16,12 @@ If you're curious about how it was made, the site is built by [Jekyll](http://je
 
 The format for this class is similar to a lab course. On Tuesdays, Jens will be lecturing on some of the fundamentals of computer networking, Internet protocols, and other relevant topics. On Thursdays, I'll running a 30-60 minute workshop at the start of class, introduce the lab assignment for the week, and you'll have the rest of the class time to work on the lab - I'll be available to answer questions and help you troubleshoot your projects.
 
+# Course Chat
+There's a dedicated chatroom (#lc-webdev on freenode) for this course on IRC. You can access it online via [Kiwi](https://kiwiirc.com/client/irc.freenode.net/#lc-webdev).
+
+# Office Hours
+TBA
+
 # Topics
 
 We'll be covering the following topics in this course:
@@ -37,9 +43,6 @@ I've been working as a professional web developer for 6 years now. You can see s
 
 # Assignments
 All of the course assignments are already posted on the schedule, and details for each assignment are included in the introduction to that week's chapter. You will be turning in lab assignments via [GitHub](https://github.com). There is no official penalty for late work – however, each lab builds off the previous week's code, which will make it hard to catch up if you fall behind. Finishing the labs on time will ensure that you get the most out of this class, and it will also ensure that I have time to give you feedback before the next week's assignment is due.
-
-# Office Hours
-TBA
 
 <div class="site-paging row">
 	<div class="col-xs-12">

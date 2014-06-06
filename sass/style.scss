@@ -110,6 +110,7 @@ header.site-header {
       @extend .img-responsive;
       margin: 0 auto;
       border: 1px solid $brand-primary;
+      border-radius: 5px;
     }
   }
 
