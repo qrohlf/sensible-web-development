@@ -1,5 +1,5 @@
 ---
-subtitle: Deployment
+subtitle: Databases II
 layout: intro
 index: 4
 
@@ -19,7 +19,7 @@ workshop:
     short description of the workshop topic
 
 assignment:
-    title: "Lab 0: Lab Title"
+    title: "Lab 4: Advanced ActiveRecord"
     summary: a short description of the lab
     requirements: 
         - A list of items that are required for the lab

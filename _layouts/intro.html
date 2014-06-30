@@ -5,17 +5,24 @@ layout: default
 <h1>Week {{page.index}}: {{page.subtitle}}</h1>
 <p><em>Lab date: {{page.date}}</em></p>
 
+{% if page.overview %}
 <h2>Overview</h2>
 {{page.overview | markdownify}}
+{% endif %}
 
+{% if page.due %}
 <h2>Due</h2>
 {{page.due | markdownify}}
+{% endif %}
 
+{% if page.reading %}
 <h2>Reading</h2>
 {{page.reading | markdownify}}
+{% endif %}
 
 {{ content }}
 
+{% if page.assignment %}
 <h2 id="assignment">This Week's Assignment</h2>
 <div class="panel panel-info">
   <div class="panel-heading">
@@ -37,3 +44,4 @@ layout: default
     </div>
   </div>
 </p>
+{% endif %}
