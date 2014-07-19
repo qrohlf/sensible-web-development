@@ -64,11 +64,11 @@ $(document).ready(function() {
     ];
 
     var colors = palettes[Math.floor(Math.random()*palettes.length)];
-    console.log(colors); // log the currently selected colors so I can disable them if I don't like them
+    // console.log(colors); // log the currently selected colors so I can disable them if I don't like them
 
     var t = new Trianglify({
         noiseIntensity: 0,
-        cellsize: 80,
+        cellsize: 100,
         x_gradient: colors,
         y_gradient: colors
     });
