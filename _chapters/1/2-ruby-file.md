@@ -3,6 +3,7 @@ subtitle: Ruby File Library
 layout: default
 index: 1.2
 ---
+# Working with Files
 
 The Ruby core library is one of the most powerful aspects of the language. It's very fully-featured, and it's much rarer to find yourself "reinventing the wheel" when working in Ruby when compared to many other popular programming languages. For the first lab, you'll need to know how to use Ruby's `File` class and string manipulation methods to read in a list of todo items from a text file.
 

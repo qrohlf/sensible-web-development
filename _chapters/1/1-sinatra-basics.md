@@ -50,7 +50,7 @@ Bundler.require
 # define a route for the root of the site
 get '/' do
   # render the views/index.erb template
-	erb :index
+  erb :index
 end
 
 # define another route with some content that's then shown by the view
