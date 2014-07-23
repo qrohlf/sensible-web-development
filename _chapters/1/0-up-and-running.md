@@ -19,7 +19,7 @@ due:
     You should have [Lab 0](/chapters/0/0-setup.html#assignment) completed before class.
 
 workshop:
-    Up and Running with Ruby and Sinatra
+    Introduction to web application development
 
 assignment:
     title: "Lab 1: MVC Todo"

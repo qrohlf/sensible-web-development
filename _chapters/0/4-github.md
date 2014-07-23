@@ -8,7 +8,7 @@ index: 0.4
 # Turning in assignments with GitHub
 
 <div class="alert alert-warning">
-	This chapter assumes that you've already created a <a href="https://github.com/join">GitHub account</a> and completed the <a href="http://try.github.io">Try Git</a> exercises that are due next week. Please make sure you've done both before continuing.
+	This chapter assumes that you've already created a <a href="https://github.com/join">GitHub account</a> and completed the <a href="http://try.github.io">Try Git</a> tutorial. Please make sure you've done both before continuing.
 </div>
 
 We will be using Git to track the history of our code for this course, and GitHub to host an online and public version of our Git repositories. To set this up, you'll need to *initialize* a Git repository in the directory where your work for this class lives, then *push* the code to a remote repository on GitHub.

@@ -13,7 +13,7 @@ reading:
     a reminder of what reading is due
 
 due:
-    You should have [Lab 1](/chapters/0/0-up-and-running.html#assignment) completed before class.
+    You should have [Lab 1](/chapters/1/0-up-and-running.html#assignment) completed before class.
 
 workshop:
     short description of the workshop topic
