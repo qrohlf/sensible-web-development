@@ -1,7 +1,7 @@
 {
   "name": "trianglify",
   "main": "trianglify.js",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/qrohlf/trianglify",
   "authors": [
     "Quinn Rohlf <qr@qrohlf.com>"
@@ -20,14 +20,14 @@
     "test",
     "tests"
   ],
-  "_release": "0.1.2",
+  "_release": "0.1.3",
   "_resolution": {
     "type": "version",
-    "tag": "v0.1.2",
-    "commit": "80287eb15ff148e43b6bf0dd5f10244f3283511f"
+    "tag": "v0.1.3",
+    "commit": "ed992acc9bcfe7cacbaed38146498fa90e01fbbd"
   },
   "_source": "git://github.com/qrohlf/trianglify.git",
-  "_target": "~0.1.2",
+  "_target": "~0.1.3",
   "_originalSource": "trianglify",
   "_direct": true
 }

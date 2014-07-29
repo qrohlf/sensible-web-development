@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# quick and dirty script to copy the relevant bower files to their appropriate places
+# quick and dirty script to copy the relevant bower files to their appropriate places. Totally a hack.
 
 # trianglify
 cp -f bower_components/trianglify/trianglify.min.js _includes
@@ -16,5 +16,5 @@ cp -f bower_components/jquery/dist/jquery.min.map js
 # bootstrap
 cp -f bower_components/bootstrap/dist/js/bootstrap.min.js _includes
 
-# d3 
+# d3
 cp -f bower_components/d3/d3.min.js _includes
