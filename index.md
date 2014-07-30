@@ -17,7 +17,7 @@ The format for this class is similar to a lab course. On Tuesdays, Jens will be 
 # Course Chat
 There's a dedicated chatroom (#lc-webdev on freenode) for this course on IRC. You can access it online via Kiwi:
 
-<a href="https://kiwiirc.com/client/irc.freenode.net/#lc-webdev" class="btn btn-default">Launch Chat</a>
+<a href="https://kiwiirc.com/client/irc.freenode.net/#lc-webdev" class="btn btn-default" target="_blank">Launch Chat</a>
 
 # Office Hours
 TBA
