@@ -9,7 +9,7 @@ Now that you have a way to collect data from the user, you need to be able to do
 Remember that Sinatra `routes` are just http verbs with a path after them. So our route to handle form submissions will look like this:
 
 ```ruby
-post '/' do 
+post '/' do
   #code goes here
 end
 ```
@@ -18,11 +18,21 @@ But how do you get at the data that the user submitted in the POST request? Sina
 
 ```ruby
 require 'json' #nice output formatting
-post '/' do 
+post '/' do
   JSON.pretty_generate params
 end
 ```
 
-Since 
-
 <div class="alert alert-info">Tip: Ruby's JSON library is great for pretty-printing data structures for debugging as valid JSON with nice line breaks. Another popular library to use for debugging is the <a href="https://github.com/michaeldv/awesome_print">awesome_print</a> gem.</div>
+
+To write to a file, you can simply format the parameters using [string interpolation](http://en.wikibooks.org/wiki/Ruby_Programming/Syntax/Literals#Interpolation):
+
+```ruby
+post '/' do
+  File.open("todo.txt", "a") do |file|
+    file.puts "#{params[:task]} - #{params[:date]}"
+  end
+end
+```
+
+That should be enough to get you going on this week's assignment. Remember that if you get really stuck, you can see a working reference app by checking out the `v0.1.0` release of the [example app repo](https://github.com/qrohlf/webdev).

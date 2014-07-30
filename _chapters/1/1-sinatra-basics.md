@@ -6,7 +6,7 @@ index: 1.1
 
 # About Sinatra
 
-Sinatra is a [DSL](http://en.wikipedia.org/wiki/Domain-specific_language)/microframework for creating web applications in Ruby. It runs on a webserver and responds to HTTP requests based on the code that you write. 
+Sinatra is a [DSL](http://en.wikipedia.org/wiki/Domain-specific_language)/microframework for creating web applications in Ruby. It runs on a webserver and responds to HTTP requests based on the code that you write.
 
 If you ever have questions about Sinatra, the [Sinatra Readme](http://www.sinatrarb.com/intro.html) is a concise, comprehensive, and well-written explanation of almost all of the features of Sinatra that we'll be using.
 
@@ -14,7 +14,7 @@ If you ever have questions about Sinatra, the [Sinatra Readme](http://www.sinatr
 
 Sinatra applications typically contain one or more *Routes*, which are chunks of Ruby code that correspond to a given [HTTP request method](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods) (like `GET`) and path (like `/helloworld/`). Routes are typically defined in a single file at the root of your project called `app.rb`.
 
-Most Sinatra applications also contain one or more *Views*, which are used to generate the HTML that gets sent back to the user's browser. While Sinatra supports many different template languages for views, we'll be using Embedded Ruby (ERB) templates to get started. They're basically just like html files with the notable difference that any code inside of `<% %>` tags will be executed by the Ruby interpreter and any code inside of `<%= %>` tags will be executed the the Ruby interpreter and then output to the file. 
+Most Sinatra applications also contain one or more *Views*, which are used to generate the HTML that gets sent back to the user's browser. While Sinatra supports many different template languages for views, we'll be using Embedded Ruby (ERB) templates to get started. They're basically just like html files with the notable difference that any code inside of `<% %>` tags will be executed by the Ruby interpreter and any code inside of `<%= %>` tags will be executed the the Ruby interpreter and then output to the file.
 
 ## Sinatra Structure
 
@@ -25,15 +25,15 @@ You already have a simple Sinatra example on your machine from the last chapter,
 	- `layout.erb` – A special file that gets wrapped around all of your Views. I'm using it to generate everything outside of the `<body>` tags.
 	- `index.erb` – A view for the site index. Note that this could be named something different than "index", the template to use for the `/` route is explicitly specified in `app.rb`
 	- `bottles.erb` – Another view that renders the "99 bottles" song lyrics. Note that both this view and the `index.erb` view only need to contain the content that goes inside of the `<body>` tag, as `layout.erb` handles everything else.
-- `Gemfile` – The Gemfile is used by Bundler to keep track of what Ruby libraries (or "gems") your app depends on. 
-- `Gemfile.lock` – Gemfile.lock is also used by Bundler to keep track of what gem *versions* your app is currently using. This ensures that you use the same gem versions in every instance of your application. 
+- `Gemfile` – The Gemfile is used by Bundler to keep track of what Ruby libraries (or "gems") your app depends on.
+- `Gemfile.lock` – Gemfile.lock is also used by Bundler to keep track of what gem *versions* your app is currently using. This ensures that you use the same gem versions in every instance of your application.
 - `config.ru` – This is a rackup configuration file that's used by Shotgun to figure out how to run your app.
 
 ## Let's take a look at `app.rb`
 
 This file is kind of like the "main method" for a Sinatra application: it's in charge of loading all of the required gems and other files, as well as declaring the application's routes. Our example application does several things. First, it requires the `rubygems` and `bundler/setup` libraries, which are needed to invoke Bundler. Next, it calls `Bundler.require`, which in turn requires all of the dependencies that we've specified in our Gemfile. Right now, this means Sinatra, Sqlite, and Shotgun.
 
-Once all of the dependencies are loaded, the app declares the *root route* with `get '/'` and then has a block that renders a template. 
+Once all of the dependencies are loaded, the app declares the *root route* with `get '/'` and then has a block that renders a template.
 
 It also declares a second route, `get '/99bottles'`, and does some computation in the route to generate the lyrics to "99 bottles of beer on the wall". The result of that computation is stored in an *instance variable* (variables with an @ sign in front of them are instance variables, and behave kind of like globals). It then renders another template, which uses the instance variable created by the route to fill in some content.
 
@@ -55,9 +55,9 @@ end
 
 # define another route with some content that's then shown by the view
 get '/99bottles' do
-  # Ruby is fun because you can mix functional programming with imperative programming. 
-  # Here we specify a Range from 1 to 99, convert it into an Array, reverse the Array order, 
-  # then map a block to the Array that converts each Integer into a String using ruby string 
+  # Ruby is fun because you can mix functional programming with imperative programming.
+  # Here we specify a Range from 1 to 99, convert it into an Array, reverse the Array order,
+  # then map a block to the Array that converts each Integer into a String using ruby string
   # interpolation (the #{} stuff)
   @lyrics = (1..99).to_a.reverse.map {|i| "#{i} bottles of beer on the wall, #{i} bottles of beer. Take one down, pass it around, #{i-1} bottles of beer on the wall."}
   # renter the views/bottles.erb template
@@ -85,7 +85,7 @@ While the version specifiers for gems (i.e. `>= 1.4.5`) aren't required, it's go
 
 ## Views
 
-The best way to understand View templates is to look at them and play around. The `views/bottle.erb` template should be especially instructive since it includes a loop that wraps around some HTML. If you've ever used PHP, ERB is very similar to it. 
+The best way to understand View templates is to look at them and play around. The `views/bottle.erb` template should be especially instructive since it includes a loop that wraps around some HTML. If you've ever used PHP, ERB is very similar to it.
 
 ## Rackup config
 
@@ -96,7 +96,7 @@ require './app'
 run Sinatra::Application
 ```
 
-That's all that you need to tell Shotgun and other tools how to run the Sinatra app that we've developed!
+That's all that you need to tell Shotgun and other tools how to run the Sinatra app that we've developed! Don't worry too much about this file if you find it confusing - you won't need to edit it at all for the tasks we'll be working on in this class.
 
 # Running your app
 

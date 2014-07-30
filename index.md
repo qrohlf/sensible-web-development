@@ -10,9 +10,9 @@ hide_subtitle: true
 # Introduction
 
 ### Wecolme to the lab section of CS393
-This is the online text for this course. It contains background information about each lesson as well as homework assignments, links to external resources, and troubleshooting tips. 
+This is the online text for this course. It contains background information about each lesson as well as homework assignments, links to external resources, and troubleshooting tips.
 
-The format for this class is similar to a lab course. On Tuesdays, Jens will be lecturing on some of the fundamentals of computer networking, Internet protocols, and other relevant topics. On Thursdays, I'll running a 30-60 minute workshop at the start of class, introduce the lab assignment for the week, and you'll have the rest of the class time to work on the lab - I'll be available to answer questions and help you troubleshoot your projects.
+The format for this class is similar to a lab course. On Tuesdays, Jens will be lecturing on some of the fundamentals of computer networking, Internet protocols, and other relevant topics. On Thursdays, I'll running a 20-40 minute workshop at the start of class, introduce the lab assignment for the week, and you'll have the rest of the class time to work on the lab - I'll be available to answer questions and help you troubleshoot your projects.
 
 # Course Chat
 There's a dedicated chatroom (#lc-webdev on freenode) for this course on IRC. You can access it online via Kiwi:
@@ -45,7 +45,7 @@ I've been working as a professional web developer for 6 years now. You can see s
 All of the course assignments are already posted on the schedule, and details for each assignment are included in the introduction to that week's chapter. You will be turning in lab assignments via [GitHub](https://github.com). There is no official penalty for late work – however, each lab builds off the previous week's code, which will make it hard to catch up if you fall behind. Finishing the labs on time will ensure that you get the most out of this class, and it will also ensure that I have time to give you feedback before the next week's assignment is due.
 
 # Site Details
-If you're curious about the technology behind this website, it's built from a collection of [markdown](http://daringfireball.net/projects/markdown/) files into static HTML with a tool called [Jekyll](http://jekyllrb.com), and uses [Twitter Bootstrap](http://getbootstrap.com) and [SASS](http://sass-lang.com) for styling. The header background images are generated client-side with a JavaScript library that I wrote called [Trianglify](http://qrohlf.com/trianglify/). All of the source is available on [GitHub](https://github.com/qrohlf/sensible-web-development), and you can submit corrections and suggestions using the [Issue Tracker](https://github.com/qrohlf/sensible-web-development).
+If you're curious about the technology behind this website, check out the [Appendix](/chapters/13/2-about-this-site.html) to see how it was built.
 
 <div class="site-paging row">
 	<div class="col-xs-12">

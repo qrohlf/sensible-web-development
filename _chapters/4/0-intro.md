@@ -3,10 +3,10 @@ subtitle: Databases II
 layout: intro
 index: 4
 
-date: 
+date:
     October 2
 
-overview: 
+overview:
     a brief overview (markdown allowed) of the week's topics
 
 reading:
@@ -21,9 +21,9 @@ workshop:
 assignment:
     title: "Lab 4: Advanced ActiveRecord"
     summary: a short description of the lab
-    requirements: 
+    requirements:
         - A list of items that are required for the lab
         - these can have inline markdown formatting
     due: before next week's class
-    tag: v0.0.0
+    tag: v0.4.0
 ---

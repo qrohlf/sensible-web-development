@@ -3,10 +3,10 @@ subtitle: APIs
 layout: intro
 index: 6
 
-date: 
+date:
     October 23
 
-overview: 
+overview:
     a brief overview (markdown allowed) of the week's topics
 
 reading:
@@ -21,9 +21,9 @@ workshop:
 assignment:
     title: "Lab 6: Todo API"
     summary: a short description of the lab
-    requirements: 
+    requirements:
         - A list of items that are required for the lab
         - these can have inline markdown formatting
     due: before next week's class
-    tag: v0.0.0
+    tag: v0.6.0
 ---

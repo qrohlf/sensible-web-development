@@ -2,7 +2,7 @@
 subtitle: Git Cheatsheet
 summary: A quick reference for common Git-related tasks
 layout: default
-index: 12.1
+index: 13.2
 ---
 
 # Git Cheatsheet

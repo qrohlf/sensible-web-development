@@ -1,16 +1,16 @@
 ---
-subtitle: "CSS & Frameworks"
+subtitle: "CSS"
 layout: intro
 index: 2
 
-date: 
+date:
     September 18
 
-overview: 
-    This week focuses on some of the visual aspects of web development, and should give you a good idea of how to customize the look and feel of your app. The lab is intentionally fairly basic - if you are behind on the previous lab, I highly suggest that you use this week to get caught up.
+overview:
+    This week focuses on some of the visual aspects of web development, and should give you a good idea of how to customize the look and feel of your app. The lab is intentionally very open ended - while I'd love to see everyone's artistic chops, if you are behind on the previous lab, this is the week to get caught up.
 
 reading:
-    a reminder of what reading is due
+    No reading for this week!
 
 due:
     You should have [Lab 1](/chapters/1/0-up-and-running.html#assignment) completed before class.
@@ -19,11 +19,11 @@ workshop:
     short description of the workshop topic
 
 assignment:
-    title: "Lab 2: Lab Title"
-    summary: a short description of the lab
-    requirements: 
-        - A list of items that are required for the lab
-        - these can have inline markdown formatting
+    title: "Lab 2: CSS Artistry"
+    summary: Add some CSS to your todo list
+    requirements:
+        - Write at least one CSS rule that styles your todo list
+        - Your CSS should be in a separate .css file.
     due: before next week's class
-    tag: v0.0.0
+    tag: v0.2.0
 ---
