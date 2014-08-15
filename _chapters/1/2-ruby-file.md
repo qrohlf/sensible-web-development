@@ -1,5 +1,6 @@
 ---
 subtitle: Ruby File Library
+summary: What you need to know for this lab
 layout: default
 index: 1.2
 ---
@@ -28,24 +29,24 @@ Top Memes by Year
 
 ```ruby
 #!/usr/bin/env ruby
- 
+
 # Read the file into a string
 file_contents = File.read('memes.txt')
- 
+
 # Split those lines into an array
 lines = file_contents.split("\n")
- 
-# You could also do the same thing in one step with File.readlines, 
+
+# You could also do the same thing in one step with File.readlines,
 # but note that File.readlines will keep newlines whereas split strips them
 unless File.readlines('memes.txt') == lines
-  puts "readlines works, too - but it keeps newlines so it's a bit different!" 
+  puts "readlines works, too - but it keeps newlines so it's a bit different!"
 end
- 
+
 # Let's grab the title using Array's shift method, which will remove it from the array
 # This is also a good time to try out ruby string interpolation (i.e. the #{} stuff)
 puts "title: #{lines.shift}"
- 
-# Okay, now we can iterate through the lines of the file 
+
+# Okay, now we can iterate through the lines of the file
 lines.each do |line|
   # You can totally assign multiple values at once from an array return value in Ruby!
   year, meme = line.split("-")

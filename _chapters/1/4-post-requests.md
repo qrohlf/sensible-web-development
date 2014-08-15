@@ -1,5 +1,6 @@
 ---
 subtitle: Handling Data
+summary: How to handle user data in your app
 layout: default
 index: 1.4
 ---

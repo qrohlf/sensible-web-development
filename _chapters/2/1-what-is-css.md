@@ -1,5 +1,6 @@
 ---
 subtitle: What Is CSS?
+summary: A quick overview of CSS basics
 layout: default
 index: 2.1
 ---
@@ -45,6 +46,8 @@ Selectors are the building blocks of a CSS file - they allow you to "target" the
     }
     ```
 
+for a more in-depth explanation of selectors, including how you can chain them together to create more complicated rules, see [this css-tricks article](http://css-tricks.com/how-css-selectors-work/).
+
 ## Declarations
 Declarations are kind of like the CSS version of paint, allowing you to apply all kinds of effects and transformations to a document. You've already seen some examples of declarations which change a document's fonts, typesetting, and backgrounds.
 
@@ -53,5 +56,9 @@ CSS declarations take the form of a *property* followed by a `:` and a *value*.
 There are [a lot](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) of CSS properties that can be used in declarations, and we're not going to go too in-depth on all of those properties in this class. My recommendation is to either google what you are trying to do (i.e. ["how to make text italic in css"](https://www.google.com/#q=how+to+make+text+italic+in+css)), or find a website that does the same thing and use your browser's [debugging tools](http://localhost:4000/chapters/2/3-debugging-css.html) to see how they've done it.
 
 # CSS Reference Materials
+Some good sites to look for info when you're working with CSS are:
+- The [MDN CSS Hub](https://developer.mozilla.org/en-US/docs/Web/CSS) for tutorials, examples, and documentation.
+- The [MDN Reference Page](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) for an index of available CSS properties.
+- The [Selectors Article](http://css-tricks.com/how-css-selectors-work/) for help with selector syntax, prioritization, and chaining.
 
 <div class="alert alert-info">A quick note: technically, CSS can be used to style <em>any</em> type of XML-based document (for example, SVG files can be styled with CSS). However, the most common use for CSS is to apply styles to HTML.</div>

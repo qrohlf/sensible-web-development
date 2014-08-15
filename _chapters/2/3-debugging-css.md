@@ -1,5 +1,6 @@
 ---
 subtitle: Debugging CSS
+summary: An introduction to in-browser debugging
 layout: default
 index: 2.3
 ---

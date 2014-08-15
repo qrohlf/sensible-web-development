@@ -1,5 +1,6 @@
 ---
-subtitle: Ruby and Sinatra
+subtitle: Ruby & Sinatra
+summary: An introduction to two powerful tools
 layout: intro
 index: 1
 

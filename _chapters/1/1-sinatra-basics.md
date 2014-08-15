@@ -1,5 +1,6 @@
 ---
 subtitle: Sinatra Basics
+summary: A high-level look at the framework
 layout: default
 index: 1.1
 ---

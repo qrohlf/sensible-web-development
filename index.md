@@ -12,7 +12,7 @@ hide_subtitle: true
 ### Wecolme to the lab section of CS393
 This is the online text for this course. It contains background information about each lesson as well as homework assignments, links to external resources, and troubleshooting tips.
 
-The format for this class is similar to a lab course. On Tuesdays, Jens will lecture on some of the fundamentals of computer networking, Internet protocols, and other relevant topics. On Thursdays, I'll run a 20-40 minute workshop at the start of class, introduce the lab assignment for the week, and then you'll have the rest of the class time to work on the lab - during which I'll be available to answer questions and help you troubleshoot your projects.
+The format for this class is similar to a lab course. On Tuesdays, Jens will lecture on some of the fundamentals of computer networking, Internet protocols, and other relevant topics. On Thursdays, I'll run a 20-40 minute workshop at the start of class, introduce the lab assignment for the week, and then you'll have the rest of the class time to work on the lab - I'll be available to answer questions and help you troubleshoot your projects.
 
 # Course Chat
 There's a dedicated chatroom (#lc-webdev on freenode) for this course on IRC. You can access it online via Kiwi:

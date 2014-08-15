@@ -1,5 +1,6 @@
 ---
 subtitle: Submitting Data
+summary: How to use HTML forms to collect user input
 layout: default
 index: 1.3
 ---
@@ -7,7 +8,7 @@ index: 1.3
 
 Once you have a way to read and display your data, you'll need to implement a way to take data from the user and append it to the file. To do this, we'll use an HTML form! The [MDN Guide to HTML forms](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form) is an excellent and comprehensive resource on how to write and use HTML forms. The example on this page is just a basic implementation to get you started - reading the MDN article is highly recommended!
 
-For our purposes, we'll need to collect two pieces of data: the task, and an optional due date. Here's what the form for that looks like: 
+For our purposes, we'll need to collect two pieces of data: the task, and an optional due date. Here's what the form for that looks like:
 
 ```html
 <form action='/' method='POST'>

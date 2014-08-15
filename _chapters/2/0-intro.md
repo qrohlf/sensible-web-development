@@ -1,5 +1,6 @@
 ---
 subtitle: "CSS"
+summary: Unleashing your inner artist
 layout: intro
 index: 2
 

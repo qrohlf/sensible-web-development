@@ -1,13 +1,13 @@
 ---
 subtitle: Verifying Your Setup
-summary: Tools to set up before the first day of class
+summary: Making sure you're good to go
 layout: default
 index: 0.3
 ---
 
 # It's time to test your setup!
 
-Now that you have Ruby 2.1.1, bundler, and SQLite installed, you should be able to run Ruby-based web applications locally. 
+Now that you have Ruby 2.1.1, bundler, and SQLite installed, you should be able to run Ruby-based web applications locally.
 
 ## Preflight Check
 First, make sure that you've got all of the tools from the previous section installed:

@@ -1,5 +1,6 @@
 ---
 subtitle: Installing Ruby
+summary: Get up & running with the latest verision
 layout: default
 index: 0.2
 ---
