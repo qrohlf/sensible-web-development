@@ -2,7 +2,7 @@
 subtitle: About This Site
 summary: How this site is built.
 layout: default
-index: 13.2
+index: 12.2
 ---
 
 todo - update this

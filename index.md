@@ -47,7 +47,7 @@ I've been working as a professional web developer for 6 years now. You can see s
 All of the course assignments are already posted on the schedule, and details for each assignment are included in the introduction to that week's chapter. You will be turning in lab assignments via [GitHub](https://github.com). There is no official penalty for late work – however, each lab builds off the previous week's code, which will make it hard to catch up if you fall behind. Finishing the labs on time will ensure that you get the most out of this class, and it will also ensure that I have time to give you feedback before the next week's assignment is due.
 
 # Site Details
-If you're curious about the technology behind this website, check out the [Appendix](/chapters/13/3-about-this-site.html) to see how it was built.
+If you're curious about the technology behind this website, check out the [Appendix](/chapters/12/3-about-this-site.html) to see how it was built.
 
 <div class="site-paging row">
 	<div class="col-xs-12">

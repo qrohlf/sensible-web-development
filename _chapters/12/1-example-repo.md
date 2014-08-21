@@ -2,7 +2,7 @@
 subtitle: Example Repo
 summary: working reference code for when you get stuck
 layout: default
-index: 13.1
+index: 12.1
 ---
 
 One of the resources available to you for this course is a GitHub repo containing working solutions to all the labs. It should be helpful for when you get stuck or can't quite remember how to do something. Just keep in mind that you'll probably get a lot more out of the labs if you try to come up with your own solutions first before looking at the reference code.
