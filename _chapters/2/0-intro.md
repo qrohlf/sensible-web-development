@@ -11,7 +11,7 @@ overview:
     This week focuses on some of the visual aspects of web development, and should give you a good idea of how to customize the look and feel of your app. The lab is intentionally very open ended - while I'd love to see everyone's artistic chops, if you are behind on the previous lab, this is the week to get caught up.
 
 reading:
-    Optional reading: [James Mickens - To Wash It All Away](https://www.usenix.org/system/files/1403_02-08_mickens.pdf)
+    "Optional reading: [James Mickens - To Wash It All Away](https://www.usenix.org/system/files/1403_02-08_mickens.pdf)"
 
 due:
     You should have [Lab 1](/chapters/1/0-up-and-running.html#assignment) completed before class.
