@@ -19,7 +19,7 @@ Most Sinatra applications also contain one or more *Views*, which are used to ge
 
 ## Sinatra Structure
 
-You already have a simple Sinatra example on your machine from the last chapter, called `webdev-gettingstarted`. Open up the directory where you cloned it so that you can follow along. You should have the following files in the directory:
+You already have a simple Sinatra example on your machine from [chapter 0.3](chapters/0/3-verifying.html), called `webdev-gettingstarted`. Open up the directory where you cloned it so that you can follow along. You should have the following files in the directory:
 
 - `app.rb` – This is where the logic for your app lives, including *Routes* and *Helpers*
 - `views/` – This folder is where the *View* templates for your app go
