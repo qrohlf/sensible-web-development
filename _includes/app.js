@@ -8,7 +8,7 @@ if (!mobileBrowser()) { // parallax scrolling is janky on mobile, so we don't do
     jQuery(document).ready(function($) {
         $(window).scroll( function()
         {
-            var scroll = $(window).scrollTop(), 
+            var scroll = $(window).scrollTop(),
                 slowScroll = scroll/3;
             var headerheight = $('header').height();
             if (scroll > headerheight) return; // don't do any work if it's out of sight!
@@ -20,10 +20,10 @@ if (!mobileBrowser()) { // parallax scrolling is janky on mobile, so we don't do
 
 // collapse nav on small screens
 $(window).resize(function(){
-  if ($(window).width() >= 992){  
+  if ($(window).width() >= 992){
     $('#toc').addClass('in');
   }
-  if ($(window).width() <= 992){  
+  if ($(window).width() <= 992){
     $('#toc').removeClass('in');
   }
 });
@@ -73,5 +73,5 @@ $(document).ready(function() {
         y_gradient: colors
     });
     var header = $('header.site-header');
-    header.css('background-image', t.generate(header.width(), header.height()).dataUrl);
+    header.css('background-image', t.generate(header.outerWidth(), header.outerHeight()).dataUrl);
 });
