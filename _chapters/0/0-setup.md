@@ -14,9 +14,7 @@ reading:
     Please read the short <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction">MDN Introduction to HTML</a> and complete the [Try Git](http://try.github.io) exercises before class.
 
 due:
-    |
-    - Development environment set up (instructions in sections 0.1-0.3 in this chapter)
-    - GitHub account created
+    Development environment set up (instructions in sections 0.1-0.3 in this chapter) and GitHub account created
 
 workshop:
     HTTP and HTML basics, and how to turn in assignments via GitHub.
