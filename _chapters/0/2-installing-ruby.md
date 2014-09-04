@@ -16,6 +16,7 @@ If you're on OSX, you can install all three of these things with Homebrew (and i
 ```bash
 brew install rbenv ruby-build rbenv-gem-rehash
 echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
+source ~/.bash_profile
 ```
 
 ## rbenv on Ubuntu
