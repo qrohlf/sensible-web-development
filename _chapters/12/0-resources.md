@@ -6,6 +6,10 @@ index: 12
 
 # Quick Links
 
+## Recommended Text Editors
+- [Atom](https://atom.io)
+- [Sublime Text](http://www.sublimetext.com)
+
 ## Ruby Documentation
 
 - [Official Ruby Docs](http://www.ruby-doc.org)
