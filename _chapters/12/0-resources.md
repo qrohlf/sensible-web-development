@@ -6,6 +6,17 @@ index: 12
 
 # Quick Links
 
+## Ruby Documentation
+
+- [Official Ruby Docs](http://www.ruby-doc.org)
+- [Omniref](https://www.omniref.com)
+- [Sinatra Readme](http://www.sinatrarb.com/intro.html)
+
+## HTML
+- [MDN HTML Tutorial](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
+- [MDN HTML Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- [Code School HTML 101](http://www.codecademy.com/courses/html-one-o-one/0/1)
+
 ## Browser Developer Tools Documentation
 
 - [Chrome](https://developer.chrome.com/devtools/index)
@@ -17,3 +28,8 @@ index: 12
 
 - [Bootstrap](http://getbootstrap.com)
 - [Foundation](http://foundation.zurb.com)
+
+
+## More
+
+- [My personal list of useful tools](https://github.com/qrohlf/tools)
