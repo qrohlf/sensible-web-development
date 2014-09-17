@@ -24,7 +24,7 @@ There's a dedicated chatroom (#lc-webdev on freenode) for this course on IRC. Yo
 
 # Office Hours
 
-I will be holding office hours every Wednesday from 11am-12:30pm in the Bodine math lounge.
+I will be holding office hours every Wednesday from 11am-12:30pm in the Bodine math lounge. If you're having issues while working on the labs, shoot me an email or say my name in IRC! If I'm online, I'll happily assist.
 
 # Topics
 
