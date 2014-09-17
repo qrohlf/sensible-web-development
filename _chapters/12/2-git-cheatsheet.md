@@ -7,7 +7,7 @@ index: 12.2
 
 # Git Cheatsheet
 
-This page is a quick reference of common Git commands that we'll be using in this course.
+This page is a quick reference of common Git tasks.
 
 ## Initialize a repository
 
@@ -23,11 +23,25 @@ git init
 git add -A
 ```
 
+## Shortcut to specify a commit message on the command line
+
+```sh
+git commit -m "my commit message"
+```
+
 ## Shortcut to commit all modified files with one command
 
 ```sh
 git commit -am "my commit message"
 ```
+
+## My commit messages are opening in emacs/vim/nano
+
+See https://help.github.com/articles/associating-text-editors-with-git to change your default text editor to use with git.
+
+## Should I commit my changes?
+
+Yes.
 
 ## Tag a finished lab or resubmission and push it to GitHub
 
