@@ -23,9 +23,8 @@ There's a dedicated chatroom (#lc-webdev on freenode) for this course on IRC. Yo
 <a href="https://kiwiirc.com/client/irc.freenode.net/#lc-webdev" class="btn btn-default" target="_blank">Launch Chat</a>
 
 # Office Hours
-I will be holding in-person office hours for approx. 30 minutes after the end of class on both Tuesdays and Thursdays.
 
-You can also say my username ("qrohlf") in the course chatroom to summon me for help (I get a notification on my phone if my name is mentioned).
+I will be holding office hours every Wednesday from 11am-12:30pm in the Bodine math lounge.
 
 # Topics
 
