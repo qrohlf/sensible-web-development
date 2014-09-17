@@ -14,6 +14,9 @@ This is the online text for this course. It contains background information abou
 
 The format for this class is similar to a lab course. On Tuesdays, Jens will lecture on some of the fundamentals of computer networking, Internet protocols, and other relevant topics. On Thursdays, I'll run a 20-40 minute workshop at the start of class, introduce the lab assignment for the week, and then you'll have the rest of the class time to work on the lab - I'll be available to answer questions and help you troubleshoot your projects.
 
+# Slides
+The slides that I use during lecture can be found on my [slides.com profile](https://slides.com/qrohlf).
+
 # Course Chat
 There's a dedicated chatroom (#lc-webdev on freenode) for this course on IRC. You can access it online via Kiwi:
 
