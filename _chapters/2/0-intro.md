@@ -17,7 +17,7 @@ due:
     You should have [Lab 1](/chapters/1/0-up-and-running.html#assignment) completed before class.
 
 workshop:
-    short description of the workshop topic
+    HTML, Git, and Ruby review, plus a short tutorial on basic CSS.
 
 assignment:
     title: "Lab 2: CSS Artistry"
