@@ -27,9 +27,11 @@ assignment:
     summary: We will be rewriting our static todo HTML page as a Sinatra application. Our app will read in a list of todo items from a text file and then render them as HTML when it recieves a GET request from the browser.
     requirements:
         - Your app should be able to read in a list of todo items with optional due dates from a text file
-        - It should respond to GET requests at the site root with an HTML representation of your todo list that passes <a href="http://validator.w3.org">the w3c validator</a>.
+        - It should respond to GET requests at the site root with an HTML representation of your todo list with no syntax errors
         - It should use a view template for rendering the html
         - It should have a form for submitting new todo items to the server via a POST request.
+        - Your app should be in the root directory of your git repository.
+        - You should remove any files that are not a part of your app from your git repo before submitting it.
     due: before next week's class
     tag: v0.1.0
 ---
