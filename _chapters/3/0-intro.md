@@ -1,6 +1,6 @@
 ---
-subtitle: "Databases I"
-summary: A better way to store and modify data
+subtitle: Review
+summary: Let's get caught up!
 layout: intro
 index: 3
 
@@ -8,23 +8,22 @@ date:
     September 25
 
 overview:
-    This week touches on some basic concepts related to databases on the web, then introduces the ActiveRecord database abstration layer.
+    To allow the class to catch up with labs and me to catch up with grading, we're having a review day this week. There will be a short in-class lab on whatever topic we end up covering. Please fill out the form which you received via email by 4pm on Tuesday 9/23.
 
 reading:
-    "Required reading: TODO. Optional: [this StackOverFlow question](https://stackoverflow.com/questions/184618/what-is-the-best-comment-in-source-code-you-have-ever-encountered)"
+    "Recommended reading - review any of the previous chapters that you had trouble with. Optional reading - [this StackOverFlow question](https://stackoverflow.com/questions/184618/what-is-the-best-comment-in-source-code-you-have-ever-encountered)"
 
 due:
-    You should have [Lab 2](/chapters/2/0-intro.html#assignment) completed before class.
+    Please do your best to have [Lab 1](/chapters/1/0-up-and-running.html#assignment) completed before class.
 
 workshop:
-    Databases overview, an SQL demo, and an introduction to ActiveRecord syntax.
+    TBD
 
 assignment:
-    title: "Lab 3: ActiveRecord"
-    summary: a short description of the lab
+    title: "Lab 3: TBD"
+    summary: TBD
     requirements:
-        - A list of items that are required for the lab
-        - these can have inline markdown formatting
+        - TBD
     due: before next week's class
     tag: v0.3.0
 ---
