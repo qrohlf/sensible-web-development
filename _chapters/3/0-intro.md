@@ -14,7 +14,7 @@ reading:
   "Recommended reading - review any of the previous chapters that you had trouble with, as well as the [suggested resources](/chapters/3/1-additional-help.html) for those topics. Optional reading - [this StackOverFlow question](https://stackoverflow.com/questions/184618/what-is-the-best-comment-in-source-code-you-have-ever-encountered)"
 
 due:
-  Please do your best to have [Lab 1](/chapters/1/0-up-and-running.html#assignment) completed before class.
+  You should have [Lab 1](/chapters/1/0-up-and-running.html#assignment) completed by the end of class. I would like to see everyone have Lab 3 finished by next Thursday (October 2nd).
 
 workshop:
   TBD
