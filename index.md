@@ -17,14 +17,17 @@ The format for this class is similar to a lab course. On Tuesdays, Jens will lec
 # Slides
 The slides that I use during lecture can be found on my [slides.com profile](https://slides.com/qrohlf).
 
-# Course Chat
-There's a dedicated chatroom (#lc-webdev on freenode) for this course on IRC. You can access it online via Kiwi:
+# Getting Help
 
-<a href="https://kiwiirc.com/client/irc.freenode.net/#lc-webdev" class="btn btn-default" target="_blank">Launch Chat</a>
+## Email
+If you have a quick question/issue, email is the best way to get in touch with me.
 
-# Office Hours
 
-I will be holding office hours every Wednesday from 11am-12:30pm in the Bodine math lounge. If you're having issues while working on the labs, shoot me an email or say my name in IRC! If I'm online, I'll happily assist.
+<a href="mailto:qrohlf@lclark.edu" class="btn btn-default"><span class="glyphicon glyphicon-inbox"></span> qrohlf@lclark.edu</a>
+
+## Office Hours
+
+I will be holding office hours **every Wednesday from 11am-12:30pm in the Bodine math lounge**. If you're having issues while working on the labs outside of office hours or can't make it to that time, shoot me an email! If I'm online, I'll happily assist.
 
 # Topics
 

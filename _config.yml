@@ -1,10 +1,9 @@
 name: Sensible Web Development
 markdown: redcarpet
 redcarpet:
-  extensions: 
+  extensions:
     - tables
     - with_toc_data
-    - autolink
     - fenced_code_blocks
 highlighter: pygments
 baseurl: ''
@@ -12,6 +11,6 @@ tracking_id: UA-40241848-2
 tracking_property: qrohlf.com
 github_repo: qrohlf/sensible-web-development
 exclude: [compass.rb, config.ru, Gemfile, Gemfile.lock, Procfile, Rakefile, README.md, sass, unicorn.rb, vendor]
-collections: 
+collections:
   chapters:
     output: true
