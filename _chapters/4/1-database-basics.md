@@ -18,3 +18,14 @@ Databases are essential tools for writing scalable and maintainable web applicat
 Working directly with databases can be cumbersome. Often, developers will find themselves writing mind-boggling queries in SQL to do what seem like simple tasks. It also brings up a host of issues - when working directly in SQL, developers have to be constantly aware of things like SQL injection attacks, schema management, and the underlying database techology that their application is running on.
 
 ActiveRecord is an *Object-Relational-Mapping* layer, or ORM written in Ruby and designed specifically for web applications. It allows you to interact with your database schema and contents as objects, using Ruby code rather than SQL. The rest of this chapter will deal mainly with ActiveRecord.
+
+# Overview
+
+In order to add a database to your app, you will need to:
+
+ 1. Add several dependencies to your `Gemfile`.
+ 2. Use `rake` to create a database migration and run it.
+ 3. Add a model to your app by creating a subclass of `ActiveRecord::Base`.
+ 4. Modify your `app.rb` file to read and write to the database instead of a file.
+
+ 
