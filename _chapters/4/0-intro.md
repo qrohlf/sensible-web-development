@@ -25,6 +25,7 @@ assignment:
         - You should write an ActiveRecord migration to create your database
         - All dynamic data in your app should be loaded from a SQLite database using an ActiveRecord model
         - Your todo items should be displayed sorted by due date
+        - Your form should now save data to the database instead of a file
     due: before next week's class
     tag: v0.4.0
 ---
