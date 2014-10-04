@@ -7,7 +7,7 @@ date:
     October 16
 
 overview:
-    a brief overview (markdown allowed) of the week's topics
+    So far, all of your apps have been running *locally*, only accessible on your own machine. This week, we'll be *deploying* our applications to a server that's accessible from anywhere on the internet. 
 
 reading:
     a reminder of what reading is due
