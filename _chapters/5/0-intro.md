@@ -7,23 +7,24 @@ date:
     October 16
 
 overview:
-    So far, all of your apps have been running *locally*, only accessible on your own machine. This week, we'll be *deploying* our applications to a server that's accessible from anywhere on the internet. 
+    So far, all of your apps have been running *locally*, only accessible on your own machine. This week, we'll be *deploying* our applications to a server that's accessible from anywhere on the internet.
 
 reading:
-    a reminder of what reading is due
+    None.
 
 due:
-    a reminder of what assignments are due
+    You will need to have Lab 4 finished before you can deploy your application.
 
 workshop:
-    short description of the workshop topic
+    Deploying your application to Heroku
 
 assignment:
     title: "Lab 5: Deployment"
-    summary: a short description of the lab
+    summary: This week, you will deploy your application to Heroku.
     requirements:
-        - A list of items that are required for the lab
-        - these can have inline markdown formatting
+        - Your application should be deployed on Heroku.
+        - Users of your app should be able to view the todo list and add *and remove* list items over the web.
+        - You should add a `Readme.md` file to your repository which includes a link to your deployed application.
     due: before next week's class
     tag: v0.5.0
 ---

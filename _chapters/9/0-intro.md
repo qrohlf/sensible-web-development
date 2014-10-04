@@ -1,21 +1,21 @@
 ---
-subtitle: Responsive Design
+subtitle: TBD
 layout: intro
 index: 9
 
-date: 
+date:
     November 13
 
-overview: 
+overview:
     a brief overview (markdown allowed) of the week's topics
 
 reading:
-    a reminder of what reading is due
+    to be determined
 
 due:
     work on project
 
 workshop:
-    short description of the workshop topic
+    to be determined
 
 ---

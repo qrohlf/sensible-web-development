@@ -1,5 +1,5 @@
 ---
-subtitle: APIs
+subtitle: Databases II
 layout: intro
 index: 6
 
@@ -7,19 +7,19 @@ date:
     October 23
 
 overview:
-    a brief overview (markdown allowed) of the week's topics
+    This week, we'll be covering some more advanced database functionality - validations and relations.
 
 reading:
     a reminder of what reading is due
 
 due:
-    a reminder of what assignments are due
+    You should have Lab 6 completed prior to class.
 
 workshop:
-    short description of the workshop topic
+    Advanced ActiveRecord - validations and relations.
 
 assignment:
-    title: "Lab 6: Todo API"
+    title: "Lab 6: Relations"
     summary: a short description of the lab
     requirements:
         - A list of items that are required for the lab

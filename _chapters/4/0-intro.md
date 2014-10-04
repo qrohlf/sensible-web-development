@@ -16,7 +16,7 @@ due:
     You should be caught up with the class, with your Lab 3 pushed to GitHub and tagged properly with a `v0.3.x` tag.
 
 workshop:
-    short description of the workshop topic
+    Introduction to relational databases and ActiveRecord.
 
 assignment:
     title: "Lab 4: ActiveRecord"

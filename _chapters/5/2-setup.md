@@ -24,4 +24,6 @@ Run `wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh` in your termi
 
 After you've created a Heroku account and installed the Heroku Toolbelt, you'll need to connect your computer to your Heroku account. In your terminal, run `heroku login`. The `heroku` command was installed as part of the Toolbelt, and accepts subcommands much like git. In this case, it will ask for the email and password for your Heroku account. It will also ask to upload or generate a SSH public key - press enter to accept.
 
-After your public key has been uploaded to Heroku, check that you are logged in by running `heroku keys`. You should see an entry with your email and some random-looking numbers and letters, signaling that you're set up to use Heroku from the terminal and ready to continue to the next chapter.
+After your public key has been uploaded to Heroku, check that you are logged in by running `heroku keys`. You should see an entry with your email and some random-looking numbers and letters, signaling that you're set up to use Heroku from the terminal and ready to continue.
+
+Next, we'll be tweaking our application code to get it ready to run on a server.
