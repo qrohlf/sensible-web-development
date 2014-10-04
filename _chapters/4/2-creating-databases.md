@@ -15,6 +15,7 @@ First, we'll need to add ActiveRecord, the Sinatra ActiveRecord interface layer,
 gem 'activerecord', '4.0.4'
 gem "sinatra-activerecord", require: 'sinatra/activerecord'
 gem "rake"
+gem "tux"
 ```
 
 Save this file, and then install your dependencies by running `bundle install` in you'r app's root directory in the terminal.
@@ -47,7 +48,17 @@ This will differ depending on the specific database type that you're using, and 
 
 Instead of dealing with that, we're going to use Ruby to describe what we want our database to look like, and ActiveRecord will set it up for us!
 
-In the console, create a migration with `rake db:create_migration`. Then open it up in your editor and change it to look like this.
+First, we'll need to wire up ActiveRecord to our database. In `app.rb`, after the line `Bundler.require`, add the following configuration code:
+
+```ruby
+ActiveRecord::Base.establish_connection(
+  :adapter  => 'sqlite3',
+  :database => 'db/development.db',
+  :encoding => 'utf8'
+)
+```
+
+Next, we'll need to define our database schema using a migration. This is a special file which describes a specific change to your database. In the console, create a migration with `rake db:create_migration`. Then open it up in your editor and change it to look like this.
 
 ```ruby
 # db/migrate/20141001173512_create_todo_items.rb
@@ -62,6 +73,8 @@ end
 ```
 
 Save this file and run `rake db:migrate` in the terminal. You should see the migration run, and then your database will be all set up!
+
+Next, we'll create a *Model* class to let us interact with this newly created database table.
 
 ----
 
