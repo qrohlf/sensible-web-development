@@ -16,26 +16,24 @@ module Jekyll
 
       site.config['chapter_groups'].each do |i, c|
       	toc << list_group_item(c[0])
-      	if i == current_chapter 
-      		toc << "<div id='toc-group-#{i}' class='toc-group'>"
+      	if i == current_chapter
 	      	c.drop(1).each do |section|
-	      		toc << list_group_item(section)
+	      		toc << list_group_item(section, ['section'])
 	      	end
-	      	toc << "</div>"
-	      end
+        end
       end
       "<div id='toc' class='list-group toc collapse'> #{toc.join('')} </div>"
     end
 
-    def list_group_item(section)
+    def list_group_item(section, classes=[])
     	subtitle = section.data['subtitle']
     	index = section.data['index']
-      unless index.nil? 
+      unless index.nil?
         label = "#{index} &middot; #{subtitle}"
       else
         label = subtitle
       end
-    	classes = ['list-group-item']
+    	classes << 'list-group-item'
     	classes << 'active' if @page['url'] == section.url
     	"<a class='#{classes.join(' ')}' href='#{@baseurl}#{section.url}'>#{label}</a>"
     end
