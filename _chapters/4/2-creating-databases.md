@@ -27,7 +27,7 @@ require "sinatra/activerecord/rake"
 require "./app" # change this if your app file is something other than "app.rb"
 ```
 
-You can verify that you've set everything up correctly by running `rake -T` in the terminal. You should see a list of
+You can verify that you've set everything up correctly by running `rake -T` in the terminal. You should see a list of database-related tasks that are now defined.
 
 # Schema
 
