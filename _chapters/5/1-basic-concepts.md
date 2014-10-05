@@ -17,6 +17,10 @@ The term *client* refers to the computer that is viewing a web page. A client ca
 
 The term *server* refers to whatever is generating a web page. So far, you've been running your application on your own machine - making it both the client and the server. However, because your computer isn't set up to handle incoming connections, your application has only been available on one machine. By *deploying* your application to a server that's always online and accepting incoming connections from the Internet, you can make it so that your application is available on any machine with Internet access.
 
+## Production
+
+The word *production* is often used to refer to the code or setup on the server (as opposed to the *development* code or setup on your computer). 
+
 ## Git Remotes
 
 One thing you may have noticed while working with git in this class is that we've been using the word `origin` to refer to GitHub. `origin` is an example of a *git remote* - an external location that git is aware of and able to upload code to. By convention, we're using the name `origin` to point to the main remote server where we store our code (in this case, GitHub). Git, however, is capable of working with multiple remotes. In this chapter, we will use a git remote to keep the code that's running on our server in sync with the code on our machine.
