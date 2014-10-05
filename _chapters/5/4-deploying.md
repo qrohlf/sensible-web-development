@@ -62,6 +62,11 @@ Running `rake db:migrate` attached to terminal... up, run.2373
 
 That's it! You can now browse to http://yourapp.herokuapp.com in any browser to see your app running on a live server!
 
+<div class="alert alert-warning">
+  Tip: <code>git push heroku master</code> only pushes your code to Heroku, not GitHub. You will still need to push your commits and tags to GitHub to turn in your assignment.
+</div>
+
+
 # Next Steps
 
 The last three sections walked you through preparing your app for deployment and deploying it to Heroku. This means that you've already got 3 of the 5 requirements for this week's lab taken care of. The next chapter will give you some tips on how to add a Readme to your repository, and how to allow users to remove items from the todo list.
