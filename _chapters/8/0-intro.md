@@ -1,5 +1,5 @@
 ---
-subtitle: Projects
+subtitle: Project Q&A
 layout: intro
 index: 8
 
@@ -7,12 +7,12 @@ date:
     November 6
 
 overview:
-    project office hours
+    "This will be a Q&A session where we'll be solving project-related problems as a class."
 
 due:
-    work on project
+    come with any technical problems you've run into while working on your project
 
 workshop:
-    Project office hours
+    "This will be a Q&A session where we'll be solving project-related problems as a class."
 
 ---
