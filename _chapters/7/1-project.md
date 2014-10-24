@@ -2,7 +2,7 @@
 subtitle: Project Details
 summary: Project guidelines and grading details
 layout: default
-index: 6.1
+index: 7.1
 ---
 
 # Guidelines for a good project:
