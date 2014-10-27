@@ -7,7 +7,7 @@ index: 5.5
 
 # On The Subject of Deleting...
 
-Basically, to delte you need a way to tell the server to delete an item from the browser. You already have all the knowledge you need in order to do this. Here's a quick recap:
+Basically, to delete you need a way to tell the server to delete an item from the browser. You already have all the knowledge you need in order to do this. Here's a quick recap:
 
 ### Sending data between the browser and server
 
