@@ -4,7 +4,7 @@ layout: intro
 index: 10
 
 date:
-    November 20
+    December 2
 
 due:
   project demos
