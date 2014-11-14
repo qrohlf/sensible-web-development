@@ -1,5 +1,5 @@
 ---
-subtitle: TBD
+subtitle: Authentication
 layout: intro
 index: 9
 
@@ -7,15 +7,12 @@ date:
     November 13
 
 overview:
-    a brief overview (markdown allowed) of the week's topics
-
-reading:
-    to be determined
+    Authentication with a username and password using the `has_secure_password` ActiveRecord feature.
 
 due:
     work on project
 
 workshop:
-    to be determined
+    Authentication
 
 ---

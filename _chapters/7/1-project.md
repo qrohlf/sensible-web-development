@@ -21,6 +21,6 @@ index: 7.1
 ## Project Deadlines:
 
 - **Monday, November 3rd** - You've confirmed your project idea with me and are ready to start working on it.
-- **Thursday, November 13** - A "first draft" of your project with the core functionality in place should be posted to GitHub, and you should send an email to me with a link to your project's repo on GitHub.
-- **Thursday, November 20th** - The first demo day - half of the projects are due, the other half should be nearly finished.
+- **Thursday, November 13** - A "first draft" of your project with at least a Readme should be up on GitHub, with a link emailed to me (qrohlf@lclark.edu).
+- **Tuesday, December 2nd** - The first demo day - half of the projects are due, the other half should be nearly finished.
 - **Thursday, December 4th** - The second demo day - all of the projects are due.

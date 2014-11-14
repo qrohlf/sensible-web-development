@@ -7,12 +7,12 @@ date:
     November 6
 
 overview:
-    "This will be a Q&A session where we'll be solving project-related problems as a class."
+    Javascript!
 
 due:
-    come with any technical problems you've run into while working on your project
+    N/A
 
 workshop:
-    "This will be a Q&A session where we'll be solving project-related problems as a class."
+    Introduction to Javascript
 
 ---
