@@ -39,7 +39,7 @@ We will be using the following tools and libraries in this course
 To install it, run this in your terminal:
 
 ```sh
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 ### Git
